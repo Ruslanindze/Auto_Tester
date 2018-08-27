@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="testng">
+    <test name="TestingChrome" >
+    <parameter name="browser" value="IExplorer_remote"/>
+        <classes>
+            <class name="tests.TShirtsTest"/>
+        </classes>
+</test>
+
+</suite>

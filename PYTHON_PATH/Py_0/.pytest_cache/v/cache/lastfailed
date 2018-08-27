@@ -1,0 +1,5 @@
+{
+  "example_PyTest.py::test": true,
+  "example_PyTest.py::test_neg_2": true,
+  "example_PyTest.py::test_negative": true
+}

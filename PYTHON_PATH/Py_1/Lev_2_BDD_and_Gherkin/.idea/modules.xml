@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Lev_1_Inh_and_Pattern/.idea/Lev_1_Inh_and_Pattern.iml" filepath="$PROJECT_DIR$/../Lev_1_Inh_and_Pattern/.idea/Lev_1_Inh_and_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lev_2_BDD_and_Gherkin.iml" filepath="$PROJECT_DIR$/.idea/Lev_2_BDD_and_Gherkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lev_3_home_work_set/.idea/Lev_3_home_work_set.iml" filepath="$PROJECT_DIR$/../Lev_3_home_work_set/.idea/Lev_3_home_work_set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../Development/Language_PY/teaching/.idea/teaching.iml" filepath="$PROJECT_DIR$/../../../../../Development/Language_PY/teaching/.idea/teaching.iml" />
+    </modules>
+  </component>
+</project>

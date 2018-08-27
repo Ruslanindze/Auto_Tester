@@ -1,0 +1,21 @@
+ip_dudnikov: 172.20.1.150
+d:\WORK_MC_21\Tester\Auto_Tester\
+d:\WORK_MC_21\Tester\Auto_Tester\PYTHON_PATH\Py_1\Lev_3_home_work_set\T003_Grib\
+------------------------------------------
+
+Create Hub:
+java -jar selenium-server-standalone-3.14.0.jar -host 172.20.1.150 -port 4444 -role hub
+------------------------------------------
+
+Create Node:
+java -jar selenium-server-standalone-3.14.0.jar -role node -hub http://172.20.1.150:4444/grid/register/ -port 5555
+
+java -Dwebdriver.ie.driver=IEDriverServer.exe -jar selenium-server-standalone-3.14.0.jar -role webdriver -hub http://172.20.1.150:4444/grid/register -port 5555 -browser browserName=iexplorer
+
+java -Dwebdriver.chrome.driver=chromedriver.exe -jar selenium-server-standalone-3.14.0.jar -role webdriver -hub http://172.20.1.150:4444/grid/register -port 5556 -browser browserName=chrome
+
+java -Dwebdriver.firefox.driver=geckodriver.exe -jar selenium-server-standalone-3.14.0.jar -role webdriver -hub http://172.20.1.150:4444/grid/register -port 5557 -browser browserName=firefox
+------------------------------------------
+
+You can visit the following URL to view the status of the hub and the registered webdrivers:
+http://172.20.1.150:4444/grid/console

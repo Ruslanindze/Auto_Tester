@@ -1,0 +1,15 @@
+{
+    "Browser":      "Firefox",
+    "Departure":    "San Diego",
+    "Destination":  "London",
+    "Name":         "Hank",
+    "Address":      "Street 25/17",
+    "City":         "TaganYork",
+    "State":        "California",
+    "ZipCode":      "666",
+    "CardType":     "Diner's Club",
+    "CredCardNumb": "1234567890",
+    "Month":        "8",
+    "Year":         "2018",
+    "NameonCard":   "Hank Silver"
+}
