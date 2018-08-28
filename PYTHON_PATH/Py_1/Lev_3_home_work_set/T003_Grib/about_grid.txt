@@ -8,9 +8,11 @@ java -jar selenium-server-standalone-3.14.0.jar -host 172.20.1.150 -port 4444 -r
 ------------------------------------------
 
 Create Node:
+java -jar selenium-server-standalone-3.14.0.jar -host 172.20.1.118 -port 5555 -role webdriver -hub http://172.20.1.150:4444/grid/register -browser browserName=firefox,platform=MAC
+
 java -jar selenium-server-standalone-3.14.0.jar -role node -hub http://172.20.1.150:4444/grid/register/ -port 5555
 
-java -Dwebdriver.ie.driver=IEDriverServer.exe -jar selenium-server-standalone-3.14.0.jar -role webdriver -hub http://172.20.1.150:4444/grid/register -port 5555 -browser browserName=iexplorer
+java -Dwebdriver.ie.driver=IEDriverServer.exe -jar selenium-server-standalone-3.14.0.jar -role webdriver -hub http://172.20.1.150:4444/grid/register -port 5555 -browser browserName=iexplorer,platform: WINDOWS
 
 java -Dwebdriver.chrome.driver=chromedriver.exe -jar selenium-server-standalone-3.14.0.jar -role webdriver -hub http://172.20.1.150:4444/grid/register -port 5556 -browser browserName=chrome
 
@@ -19,3 +21,8 @@ java -Dwebdriver.firefox.driver=geckodriver.exe -jar selenium-server-standalone-
 
 You can visit the following URL to view the status of the hub and the registered webdrivers:
 http://172.20.1.150:4444/grid/console
+
+***************************************** IP
+dudnikov == 172.20.1.150
+butakova == 172.20.1.118
+***************************************** IP
