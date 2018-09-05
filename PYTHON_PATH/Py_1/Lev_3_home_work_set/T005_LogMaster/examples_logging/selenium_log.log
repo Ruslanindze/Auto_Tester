@@ -1,0 +1,154 @@
+[1536142392.378][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1536142392.385][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1536142392.387][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1536142392.425][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\dudnikov\AppData\Local\Temp\scoped_dir4404_12608\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\dudnikov\AppData\Local\Temp\scoped_dir4404_14255" data:,
+[1536142393.401][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1536142394.413][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)",
+      "userDataDir": "C:\\Users\\dudnikov\\AppData\\Local\\Temp\\scoped_dir4404_14255"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:64639"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "~~~": "..."
+}
+[1536142394.414][INFO]: COMMAND Navigate {
+   "sessionId": "b6623bbbf1aabaf9210cd813654fff77",
+   "url": "http://www.google.com"
+}
+[1536142394.414][INFO]: Waiting for pending navigations...
+[1536142394.428][INFO]: Done waiting for pending navigations. Status: ok
+[1536142395.327][INFO]: Waiting for pending navigations...
+[1536142396.075][INFO]: Done waiting for pending navigations. Status: ok
+[1536142396.075][INFO]: RESPONSE Navigate
+[1536142396.077][INFO]: COMMAND GetTitle {
+
+}
+[1536142396.077][INFO]: Waiting for pending navigations...
+[1536142396.079][INFO]: Done waiting for pending navigations. Status: ok
+[1536142396.081][INFO]: Waiting for pending navigations...
+[1536142396.081][INFO]: Done waiting for pending navigations. Status: ok
+[1536142396.081][INFO]: RESPONSE GetTitle "Google"
+[1536142396.083][INFO]: COMMAND Navigate {
+   "sessionId": "b6623bbbf1aabaf9210cd813654fff77",
+   "url": "http://www.yandex.ru"
+}
+[1536142396.083][INFO]: Waiting for pending navigations...
+[1536142396.084][INFO]: Done waiting for pending navigations. Status: ok
+[1536142396.855][INFO]: Waiting for pending navigations...
+[1536142397.965][INFO]: Done waiting for pending navigations. Status: ok
+[1536142397.965][INFO]: RESPONSE Navigate
+[1536142397.970][INFO]: COMMAND GetTitle {
+
+}
+[1536142397.970][INFO]: Waiting for pending navigations...
+[1536142397.971][INFO]: Done waiting for pending navigations. Status: ok
+[1536142397.973][INFO]: Waiting for pending navigations...
+[1536142397.975][INFO]: Done waiting for pending navigations. Status: ok
+[1536142397.975][INFO]: RESPONSE GetTitle "Яндекс"
+[1536142399.018][INFO]: COMMAND Quit {
+
+}
+[1536142399.272][INFO]: RESPONSE Quit

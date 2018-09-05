@@ -1,17 +1,19 @@
 #  -*- coding: cp1251 -*-                                                                                             #
 # Python 3.x.x
-#------------------------------------
-import sys,os
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+#--------------------------------
+import sys, os
+PATH_IMPORT = os.getcwd()[:os.getcwd().rfind('\\')]
+if PATH_IMPORT not in sys.path:
+    sys.path.append(PATH_IMPORT)
 #--------------------------------
 import time
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-import T003_Grib.DriverManager as DM
-import T003_Grib.Str_Const as SC
-import T003_Grib.LocatorsC as Loc
+import T005_LogMaster.DriverManager as DM
+import T005_LogMaster.Str_Const as SC
+import T005_LogMaster.LocatorsC as Loc
 #------------------------------------
 
 # ----------------------------------------------------

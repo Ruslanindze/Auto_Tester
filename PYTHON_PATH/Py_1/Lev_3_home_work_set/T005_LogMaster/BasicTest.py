@@ -1,15 +1,17 @@
 #  -*- coding: cp1251 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
-import sys,os
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+import sys, os
+PATH_IMPORT = os.getcwd()[:os.getcwd().rfind('\\')]
+if PATH_IMPORT not in sys.path:
+    sys.path.append(PATH_IMPORT)
 #--------------------------------
 import time
 import unittest
 
-import DriverManager as DM
-import PageObjC as Obj
-import Str_Const as SC
+import T005_LogMaster.DriverManager as DM
+import T005_LogMaster.PageObjC as Obj
+import T005_LogMaster.Str_Const as SC
 #--------------------------------
 
 #--------------------------------
@@ -23,6 +25,6 @@ class Basic_UniT(unittest.TestCase):
         cls.HomeP = Obj.Home(cls.Driver)
 
     def tearDown(cls):
-        time.sleep(1)
+        time.sleep(4)
         cls.Driver.quit()
 #--------------------------------

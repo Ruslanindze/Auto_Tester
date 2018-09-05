@@ -1,0 +1,57 @@
+2018-09-05 13:14:02,523 : DEBUG : POST http://127.0.0.1:64894/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"extensions": [], "args": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"extensions": [], "args": []}, "browserName": "chrome", "version": "", "platform": "ANY"}}
+2018-09-05 13:14:02,525 : DEBUG : Starting new HTTP connection (1): 127.0.0.1
+2018-09-05 13:14:04,571 : DEBUG : http://127.0.0.1:64894 "POST /session HTTP/1.1" 200 889
+2018-09-05 13:14:04,572 : DEBUG : Finished Request
+2018-09-05 13:14:04,572 : DEBUG : POST http://127.0.0.1:64894/session/ca200b9ce2caaa8abbad459e782d00f2/url {"url": "http://www.google.com", "sessionId": "ca200b9ce2caaa8abbad459e782d00f2"}
+2018-09-05 13:14:06,311 : DEBUG : http://127.0.0.1:64894 "POST /session/ca200b9ce2caaa8abbad459e782d00f2/url HTTP/1.1" 200 72
+2018-09-05 13:14:06,311 : DEBUG : Finished Request
+2018-09-05 13:14:06,312 : DEBUG : GET http://127.0.0.1:64894/session/ca200b9ce2caaa8abbad459e782d00f2/title {"sessionId": "ca200b9ce2caaa8abbad459e782d00f2"}
+2018-09-05 13:14:06,317 : DEBUG : http://127.0.0.1:64894 "GET /session/ca200b9ce2caaa8abbad459e782d00f2/title HTTP/1.1" 200 76
+2018-09-05 13:14:06,317 : DEBUG : Finished Request
+2018-09-05 13:14:06,318 : DEBUG : POST http://127.0.0.1:64894/session/ca200b9ce2caaa8abbad459e782d00f2/url {"url": "http://www.yandex.ru", "sessionId": "ca200b9ce2caaa8abbad459e782d00f2"}
+2018-09-05 13:14:07,842 : DEBUG : http://127.0.0.1:64894 "POST /session/ca200b9ce2caaa8abbad459e782d00f2/url HTTP/1.1" 200 72
+2018-09-05 13:14:07,842 : DEBUG : Finished Request
+2018-09-05 13:14:07,842 : DEBUG : GET http://127.0.0.1:64894/session/ca200b9ce2caaa8abbad459e782d00f2/title {"sessionId": "ca200b9ce2caaa8abbad459e782d00f2"}
+2018-09-05 13:14:07,852 : DEBUG : http://127.0.0.1:64894 "GET /session/ca200b9ce2caaa8abbad459e782d00f2/title HTTP/1.1" 200 82
+2018-09-05 13:14:07,852 : DEBUG : Finished Request
+2018-09-05 13:14:09,853 : DEBUG : DELETE http://127.0.0.1:64894/session/ca200b9ce2caaa8abbad459e782d00f2 {"sessionId": "ca200b9ce2caaa8abbad459e782d00f2"}
+2018-09-05 13:14:09,929 : DEBUG : http://127.0.0.1:64894 "DELETE /session/ca200b9ce2caaa8abbad459e782d00f2 HTTP/1.1" 200 72
+2018-09-05 13:14:09,929 : DEBUG : Finished Request
+2018-09-05 15:29:37,936 : DEBUG : POST http://127.0.0.1:50803/session {"desiredCapabilities": {"version": "", "browserName": "chrome", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "goog:chromeOptions": {"extensions": [], "args": []}, "platformName": "any"}}}
+2018-09-05 15:29:37,953 : DEBUG : Starting new HTTP connection (1): 127.0.0.1
+2018-09-05 15:29:39,632 : DEBUG : http://127.0.0.1:50803 "POST /session HTTP/1.1" 200 889
+2018-09-05 15:29:39,633 : DEBUG : Finished Request
+2018-09-05 15:29:39,633 : DEBUG : POST http://127.0.0.1:50803/session/18e4f68fd829168ff99a010ccd2ac73c/url {"sessionId": "18e4f68fd829168ff99a010ccd2ac73c", "url": "http://www.google.com"}
+2018-09-05 15:29:41,069 : DEBUG : http://127.0.0.1:50803 "POST /session/18e4f68fd829168ff99a010ccd2ac73c/url HTTP/1.1" 200 72
+2018-09-05 15:29:41,069 : DEBUG : Finished Request
+2018-09-05 15:29:41,070 : DEBUG : GET http://127.0.0.1:50803/session/18e4f68fd829168ff99a010ccd2ac73c/title {"sessionId": "18e4f68fd829168ff99a010ccd2ac73c"}
+2018-09-05 15:29:41,075 : DEBUG : http://127.0.0.1:50803 "GET /session/18e4f68fd829168ff99a010ccd2ac73c/title HTTP/1.1" 200 76
+2018-09-05 15:29:41,075 : DEBUG : Finished Request
+2018-09-05 15:29:41,075 : DEBUG : POST http://127.0.0.1:50803/session/18e4f68fd829168ff99a010ccd2ac73c/url {"sessionId": "18e4f68fd829168ff99a010ccd2ac73c", "url": "http://www.yandex.ru"}
+2018-09-05 15:29:42,549 : DEBUG : http://127.0.0.1:50803 "POST /session/18e4f68fd829168ff99a010ccd2ac73c/url HTTP/1.1" 200 72
+2018-09-05 15:29:42,550 : DEBUG : Finished Request
+2018-09-05 15:29:42,550 : DEBUG : GET http://127.0.0.1:50803/session/18e4f68fd829168ff99a010ccd2ac73c/title {"sessionId": "18e4f68fd829168ff99a010ccd2ac73c"}
+2018-09-05 15:29:42,557 : DEBUG : http://127.0.0.1:50803 "GET /session/18e4f68fd829168ff99a010ccd2ac73c/title HTTP/1.1" 200 82
+2018-09-05 15:29:42,557 : DEBUG : Finished Request
+2018-09-05 15:29:44,556 : DEBUG : DELETE http://127.0.0.1:50803/session/18e4f68fd829168ff99a010ccd2ac73c {"sessionId": "18e4f68fd829168ff99a010ccd2ac73c"}
+2018-09-05 15:29:44,589 : DEBUG : http://127.0.0.1:50803 "DELETE /session/18e4f68fd829168ff99a010ccd2ac73c HTTP/1.1" 200 72
+2018-09-05 15:29:44,589 : DEBUG : Finished Request
+2018-09-05 15:30:41,406 : DEBUG : POST http://127.0.0.1:50983/session {"capabilities": {"alwaysMatch": {"platformName": "any", "browserName": "chrome", "goog:chromeOptions": {"extensions": [], "args": []}}, "firstMatch": [{}]}, "desiredCapabilities": {"browserName": "chrome", "platform": "ANY", "version": "", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-09-05 15:30:41,407 : DEBUG : Starting new HTTP connection (1): 127.0.0.1
+2018-09-05 15:30:43,094 : DEBUG : http://127.0.0.1:50983 "POST /session HTTP/1.1" 200 890
+2018-09-05 15:30:43,094 : DEBUG : Finished Request
+2018-09-05 15:30:43,095 : DEBUG : POST http://127.0.0.1:50983/session/3e4446b1ed20d245c3a8a15d65ac6af8/url {"sessionId": "3e4446b1ed20d245c3a8a15d65ac6af8", "url": "http://www.google.com"}
+2018-09-05 15:30:45,293 : DEBUG : http://127.0.0.1:50983 "POST /session/3e4446b1ed20d245c3a8a15d65ac6af8/url HTTP/1.1" 200 72
+2018-09-05 15:30:45,294 : DEBUG : Finished Request
+2018-09-05 15:30:45,294 : DEBUG : GET http://127.0.0.1:50983/session/3e4446b1ed20d245c3a8a15d65ac6af8/title {"sessionId": "3e4446b1ed20d245c3a8a15d65ac6af8"}
+2018-09-05 15:30:45,298 : DEBUG : http://127.0.0.1:50983 "GET /session/3e4446b1ed20d245c3a8a15d65ac6af8/title HTTP/1.1" 200 76
+2018-09-05 15:30:45,298 : DEBUG : Finished Request
+2018-09-05 15:30:45,298 : DEBUG : POST http://127.0.0.1:50983/session/3e4446b1ed20d245c3a8a15d65ac6af8/url {"sessionId": "3e4446b1ed20d245c3a8a15d65ac6af8", "url": "http://www.yandex.ru"}
+2018-09-05 15:30:46,747 : DEBUG : http://127.0.0.1:50983 "POST /session/3e4446b1ed20d245c3a8a15d65ac6af8/url HTTP/1.1" 200 72
+2018-09-05 15:30:46,747 : DEBUG : Finished Request
+2018-09-05 15:30:46,748 : DEBUG : GET http://127.0.0.1:50983/session/3e4446b1ed20d245c3a8a15d65ac6af8/title {"sessionId": "3e4446b1ed20d245c3a8a15d65ac6af8"}
+2018-09-05 15:30:46,761 : DEBUG : http://127.0.0.1:50983 "GET /session/3e4446b1ed20d245c3a8a15d65ac6af8/title HTTP/1.1" 200 82
+2018-09-05 15:30:46,761 : DEBUG : Finished Request
+2018-09-05 15:30:48,762 : DEBUG : DELETE http://127.0.0.1:50983/session/3e4446b1ed20d245c3a8a15d65ac6af8 {"sessionId": "3e4446b1ed20d245c3a8a15d65ac6af8"}
+2018-09-05 15:30:48,819 : DEBUG : http://127.0.0.1:50983 "DELETE /session/3e4446b1ed20d245c3a8a15d65ac6af8 HTTP/1.1" 200 72
+2018-09-05 15:30:48,819 : DEBUG : Finished Request

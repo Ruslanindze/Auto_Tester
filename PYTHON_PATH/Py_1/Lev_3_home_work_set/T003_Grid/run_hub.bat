@@ -7,4 +7,5 @@ rem set IP=%1
 rem Создаём узел 
 java -jar %PATH_SERVER% -host %IP% -port %PORT% -role hub
 
+rem Check on http://172.20.1.150:4444/grid/console
 pause

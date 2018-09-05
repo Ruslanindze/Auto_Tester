@@ -1,28 +1,28 @@
 #  -*- coding: cp1251 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
-import sys,os
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+import sys, os
+PATH_IMPORT = os.getcwd()[:os.getcwd().rfind('\\')]
+if PATH_IMPORT not in sys.path:
+    sys.path.append(PATH_IMPORT)
 #--------------------------------
+import logging
 import unittest, time, os
 from selenium import webdriver
 from selenium.webdriver import  ActionChains
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-import PageObjC as Obj
-import LocatorsC as Loc
-import DriverManager as DM
-import Str_Const as SC
-import BasicTest as BT
+import T005_LogMaster.BasicTest as BT
+import T005_LogMaster.PageObjC as Obj
+import T005_LogMaster.LocatorsC as Loc
+import T005_LogMaster.DriverManager as DM
+import T005_LogMaster.Str_Const as SC
 #--------------------------------
-
 
 #--------------------------------
 class Test_Actions(BT.Basic_UniT):
-    #-------------------
     def test_A_Women(self):
         #--------- найдем нужный элемент
         check_elem = self.HomeP.Women
@@ -60,14 +60,14 @@ class Test_Actions(BT.Basic_UniT):
         #------- проверка клика мыши
         t_shirts.click()
         self.assertEqual(self.Driver.current_url , SC.TSHIRTS_PAGE)
-    #------------------------------------
 
 #--------------------------------
 
 if __name__ == '__main__':
     # unittest.main() # не запускается, только через suite
-    BT.Basic_UniT.Browser = sys.argv[1]
 
+    # BT.Basic_UniT.Browser = sys.argv[1]
+    BT.Basic_UniT.Browser = 'firefox'
     loader = unittest.TestLoader()
     runner = unittest.TextTestRunner(verbosity=2)
     result = runner.run(loader.loadTestsFromTestCase(Test_Actions))
