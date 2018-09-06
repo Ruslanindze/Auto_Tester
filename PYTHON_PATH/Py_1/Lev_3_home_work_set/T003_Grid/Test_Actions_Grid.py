@@ -66,7 +66,8 @@ class Test_Actions(BT.Basic_UniT):
 
 if __name__ == '__main__':
     # unittest.main() # не запускается, только через suite
-    BT.Basic_UniT.Browser = sys.argv[1]
+    # BT.Basic_UniT.Browser = sys.argv[1]
+    BT.Basic_UniT.Browser = 'chrome'
 
     loader = unittest.TestLoader()
     runner = unittest.TextTestRunner(verbosity=2)

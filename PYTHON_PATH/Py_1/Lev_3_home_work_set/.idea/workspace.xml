@@ -2,43 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b0890d-247a-4bac-8f6f-e545447c3ad3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/Listener_Log.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/BasicTest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/DriverManager.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/LocatorsC.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/PageObjC.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/Str_Const.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/Test_Logger.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/Listener_Log.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/Listener_Log.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/OpenAgent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/logging_example.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/logging_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/selenium_log.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/selenium_log.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/A_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/B_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/BasicTest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/DriverManager.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/LocatorsC.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/PageObjC.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/Str_Const.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/Test_Actions_Grid.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/about_grid.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/geckodriver.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/googletest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/run_hub.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grib/run_node.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T003_Grid/googletest.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../~$Д.3.docx" afterPath="$PROJECT_DIR$/../../../~$Д.3.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/bmp.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_chrome.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_firefox.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/server.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/video_recorder_ex.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../~$Д.3.docx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lev_0_DriverMan/Test_DriverMan.py" afterPath="$PROJECT_DIR$/../Lev_0_DriverMan/Test_DriverMan.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Lev_3_home_work_set.iml" afterPath="$PROJECT_DIR$/.idea/Lev_3_home_work_set.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/run_hub.bat" afterPath="$PROJECT_DIR$/T003_Grid/run_hub.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/run_node.bat" afterPath="$PROJECT_DIR$/T003_Grid/run_node.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py" afterPath="$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_example.py" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/examples_logging/selenium_log.log" afterPath="$PROJECT_DIR$/T005_LogMaster/examples_logging/selenium_log.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,48 +24,52 @@
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="browsermobproxy_example.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_example.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="OpenAgent.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/OpenAgent.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Listener_Log.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/Listener_Log.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#917#957#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="browsermobproxy_example.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="77" />
+              <folding>
+                <element signature="e#752#794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video_recorder_ex.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/video_recorder_ex.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#415#455#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video_recorder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/test_recorder/video_recorder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_Actions_Grid.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,13 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>KO</find>
-      <find>Log</find>
-      <find>FAI</find>
-      <find>OK</find>
-      <find>Яндекс</find>
-      <find>ko</find>
-      <find>fai</find>
       <find>Яндек</find>
       <find>=</find>
       <find>getAvailableLogTypes</find>
@@ -131,6 +103,13 @@
       <find>Wait</find>
       <find>by</find>
       <find>self.wait.until</find>
+      <find>Погода Таганрог</find>
+      <find>[@id=&quot;text</find>
+      <find>print(.*)</find>
+      <find>print (</find>
+      <find>prin</find>
+      <find>print</find>
+      <find>config</find>
     </findStrings>
     <replaceStrings>
       <replace>rgba_</replace>
@@ -138,6 +117,8 @@
       <replace>log_with_unittest</replace>
       <replace>assertEqual</replace>
       <replace>WebDriverWait(self.driver, 3)</replace>
+      <replace>print(\1)</replace>
+      <replace>print(</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -146,16 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../Lev_2_BDD_and_Gherkin/features/Test_Ya_News.feature" />
-        <option value="$PROJECT_DIR$/T002_Selene/Test_Selene.py" />
-        <option value="$PROJECT_DIR$/../../Py_0/Lev_3_DriverMan/PageObjC.py" />
-        <option value="$PROJECT_DIR$/../../Py_0/Lev_3_DriverMan/DriverManager.py" />
-        <option value="$PROJECT_DIR$/../../Py_0/Lev_3_DriverMan/Test_DriverMan.py" />
-        <option value="$PROJECT_DIR$/../Lev_2_BDD_and_Gherkin/features/environment.py" />
-        <option value="$PROJECT_DIR$/../Lev_2_BDD_and_Gherkin/features/steps/Test_Ya_News.py" />
-        <option value="$PROJECT_DIR$/T003_Grib/example_grid.py" />
-        <option value="$PROJECT_DIR$/T003_Grib/demo_grid.py" />
-        <option value="$PROJECT_DIR$/T003_Grib/googletest.py" />
         <option value="$PROJECT_DIR$/T003_Grib/test_example_0.py" />
         <option value="$PROJECT_DIR$/T003_Grib/test_example_1.py" />
         <option value="$PROJECT_DIR$/T003_Grib/B_test.py" />
@@ -196,15 +167,25 @@
         <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/logging_example.py" />
         <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/OpenAgent.py" />
         <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/Listener_Log.py" />
+        <option value="$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py" />
+        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_pprint.json" />
         <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_example.py" />
+        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/castro_videoR.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/castro/__init__.py" />
+        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/selenium_video_ex.py" />
+        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/video_recorder_py.py" />
+        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/video_recorder.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/test_recorder/os_utils.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/test_recorder/video_recorder.py" />
+        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/video_recorder_ex.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2014" />
-    <option name="y" value="-9" />
+    <option name="x" value="1016" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1055" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -222,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,7 +215,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -265,51 +246,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.browsermobproxy_example">
-    <configuration name="Listener_Log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.video_recorder">
+    <configuration name="Test_Actions_Grid" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T005_LogMaster/examples_logging" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T003_Grid" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lev_3_home_work_set" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T005_LogMaster/examples_logging/Listener_Log.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Unittests for selenium_log.Test_Logging_INFO" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for A_test.ExampleTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T005_LogMaster/examples_logging" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T003_Grid" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lev_3_home_work_set" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;selenium_log.Test_Logging_INFO&quot;" />
+      <option name="_new_target" value="&quot;A_test.ExampleTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests in selenium_log.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T005_LogMaster/examples_logging" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lev_3_home_work_set" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/T005_LogMaster/examples_logging/selenium_log.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -452,20 +419,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="video_recorder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/test_recorder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="teaching" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/test_recorder/video_recorder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.logging_example" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in selenium_log.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for selenium_log.Test_Logging_INFO" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Listener_Log" />
-      <item index="4" class="java.lang.String" itemvalue="Python.browsermobproxy_example" />
+      <item index="1" class="java.lang.String" itemvalue="Python.browsermobproxy_example" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for A_test.ExampleTestCase" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Test_Actions_Grid" />
+      <item index="4" class="java.lang.String" itemvalue="Python.video_recorder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.browsermobproxy_example" />
-        <item index="1" class="java.lang.String" itemvalue="Python.logging_example" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in selenium_log.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Listener_Log" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for selenium_log.Test_Logging_INFO" />
+        <item index="0" class="java.lang.String" itemvalue="Python.video_recorder" />
+        <item index="1" class="java.lang.String" itemvalue="Python.browsermobproxy_example" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Test_Actions_Grid" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for A_test.ExampleTestCase" />
+        <item index="4" class="java.lang.String" itemvalue="Python.logging_example" />
       </list>
     </recent_temporary>
   </component>
@@ -494,12 +478,19 @@
       <option name="project" value="LOCAL" />
       <updated>1535697978214</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="T005_LogMaster: Logger, Screenshots">
+      <created>1536157545043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536157545043</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_Test_Logger_Test_Actions_test_A_Women - 2018.09.04 at 11h 30m 31s.xml">
-      <configuration name="Unittests for Test_Logger.Test_Actions.test_A_Women" configurationId="tests" />
+    <history-entry file="Unittests_for_A_test_ExampleTestCase - 2018.09.06 at 11h 00m 47s.xml">
+      <configuration name="Unittests for A_test.ExampleTestCase" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_selenium_log_Test_Logging_INFO - 2018.09.04 at 12h 09m 41s.xml">
       <configuration name="Unittests for selenium_log.Test_Logging_INFO" configurationId="tests" />
@@ -532,16 +523,16 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13646056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14818764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34232366" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5053305" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.4946695" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35062242" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34958506" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -604,78 +595,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создание python_package для 5-го задания (LogMaster)" />
     <MESSAGE value="Поменял название папки T003_Grib на T003_Grid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поменял название папки T003_Grib на T003_Grid" />
+    <MESSAGE value="T005_LogMaster: Logger, Screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="T005_LogMaster: Logger, Screenshots" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/T001_Actions/Test_Actions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="394" column="60" lean-forward="true" selection-start-line="394" selection-start-column="60" selection-end-line="394" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/swagger_client/api_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/swagger_client/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="292" column="52" lean-forward="true" selection-start-line="292" selection-start-column="52" selection-end-line="292" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/swagger_client/configuration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3051">
-          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/DriverManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/logging_selenium.py" />
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/types_of_logs.py" />
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/open_agent.py" />
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/swagger_client.py" />
-    <entry file="file://$PROJECT_DIR$/T003_Grid/googletest.py" />
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples/logging_and_unittest.py" />
-    <entry file="file://$PROJECT_DIR$/../../../../../Development/Language_PY/teaching/testing_py/unittest/test_with_logging.py" />
-    <entry file="file://$PROJECT_DIR$/../../../../../Development/Language_PY/teaching/testing_py/types_of_loggers/selenium_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../Development/Language_PY/teaching/commons/decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../Development/Language_PY/teaching/testing_py/types_of_loggers/log_with_unittest.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -697,13 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-349">
           <caret line="33" column="34" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T003_Grid/A_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="78" lean-forward="true" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
         </state>
       </provider>
     </entry>
@@ -868,6 +790,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_str.har">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_json.har">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="0" column="150911" lean-forward="true" selection-start-line="0" selection-start-column="150911" selection-end-line="0" selection-end-column="150911" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_pprint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="2100" column="0" lean-forward="true" selection-start-line="2100" selection-start-column="0" selection-end-line="2100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/bmp.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="479">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_pprint2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="372" column="0" lean-forward="true" selection-start-line="372" selection-start-column="0" selection-end-line="372" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/OpenAgent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -876,21 +837,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/castro/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="104" column="11" lean-forward="true" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/castro_videoR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/selenium_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#46#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/video_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/Listener_Log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="33" />
-          <folding>
-            <element signature="e#917#957#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="672">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="77" />
+          <folding>
+            <element signature="e#752#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/test_recorder/os_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/A_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/B_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/test_recorder/video_recorder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/video_recorder_ex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#415#455#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
