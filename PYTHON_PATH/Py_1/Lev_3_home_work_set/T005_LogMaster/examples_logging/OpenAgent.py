@@ -1,12 +1,7 @@
 #  -*- coding: cp1251 -*-                                                                                             #
 # Python 3.x.x
 #----------------------------------------------------------------
-# У меня этот способ не работает, но вообще вроде рабочий.
-# Лог файл в формате *.tlz, который открывается прогой
-#   TrueLog Explorer, которую хер где скачаешь
-# Источник: https://community.microfocus.com/borland/test/silk_test/b/weblog/posts/advanced-logging-for-your-selenium-tests-with-python
-# Там есть еще метод TrueLog API через import swagger_client, но он у мен также не работает,
-#   так как метода swagger_client.DefaultApi() не существует...
+
 #----------------------------------------------------------------
 PATH_DRIVER_FIREFOX = r"d:\WORK_MC_21\Tester\Auto_Tester\Drivers\geckodriver.exe"
 
@@ -27,7 +22,6 @@ class InsuranceTests(unittest.TestCase):
                             "trueLogScreenshotMode" : "always"
                         }}
 
-        # В таком варианте не работает, без параметра desired_capabilities всё ок
         # cls.driver = webdriver.Firefox(executable_path=PATH_DRIVER_FIREFOX, desired_capabilities=capabilities)
 
         # Для такого варианте необходимо настроить hub - node (browser = firefox)
@@ -36,15 +30,15 @@ class InsuranceTests(unittest.TestCase):
 
     def test_A(self):
         """Testing Google title in driver"""
-        # Тест пройдёт на ОК
+        # Test Passed
         self.driver.get("http://www.google.com")
         self.assertEqual(self.driver.title, "Google")
 
     def test_B(self):
         """Testing Yandex title in driver"""
-        # Тест специально завалится для демонстрации настроенной системы логирования
+        # Test failled
         self.driver.get("http://www.yandex.ru")
-        self.assertEqual(self.driver.title, "Яндек")
+        self.assertEqual(self.driver.title, "Yandex")
 
     @classmethod
     def tearDownClass(cls):

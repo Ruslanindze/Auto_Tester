@@ -1,4 +1,4 @@
-[1536243498.126][INFO]: COMMAND InitSession {
+[1537360888.986][INFO]: COMMAND InitSession {
    "capabilities": {
       "alwaysMatch": {
          "browserName": "chrome",
@@ -22,7 +22,7 @@
       "version": ""
    }
 }
-[1536243498.134][INFO]: Populating Preferences file: {
+[1537360888.990][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -75,7 +75,7 @@
       "enabled": false
    }
 }
-[1536243498.137][INFO]: Populating Local State file: {
+[1537360888.991][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -85,9 +85,9 @@
       }
    }
 }
-[1536243498.180][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\dudnikov\AppData\Local\Temp\scoped_dir1208_8698\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\dudnikov\AppData\Local\Temp\scoped_dir1208_6693" data:,
-[1536243500.310][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1536243502.196][INFO]: RESPONSE InitSession {
+[1537360889.033][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\dudnikov\AppData\Local\Temp\scoped_dir5828_31370\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\dudnikov\AppData\Local\Temp\scoped_dir5828_28685" data:,
+[1537360889.725][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1537360890.765][INFO]: RESPONSE InitSession {
    "acceptInsecureCerts": false,
    "acceptSslCerts": false,
    "applicationCacheEnabled": false,
@@ -95,12 +95,12 @@
    "browserName": "chrome",
    "chrome": {
       "chromedriverVersion": "2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)",
-      "userDataDir": "C:\\Users\\dudnikov\\AppData\\Local\\Temp\\scoped_dir1208_6693"
+      "userDataDir": "C:\\Users\\dudnikov\\AppData\\Local\\Temp\\scoped_dir5828_28685"
    },
    "cssSelectorsEnabled": true,
    "databaseEnabled": false,
    "goog:chromeOptions": {
-      "debuggerAddress": "localhost:52548"
+      "debuggerAddress": "localhost:49488"
    },
    "handlesAlerts": true,
    "hasTouchScreen": false,
@@ -114,41 +114,41 @@
    "rotatable": false,
    "~~~": "..."
 }
-[1536243502.198][INFO]: COMMAND Navigate {
-   "sessionId": "7ae983526b4ad83b1e623c755c6b8f18",
+[1537360890.767][INFO]: COMMAND Navigate {
+   "sessionId": "e30c7623efe3dfff3e39b8c2888327d5",
    "url": "http://www.google.com"
 }
-[1536243502.198][INFO]: Waiting for pending navigations...
-[1536243502.199][INFO]: Done waiting for pending navigations. Status: ok
-[1536243503.252][INFO]: Waiting for pending navigations...
-[1536243504.363][INFO]: Done waiting for pending navigations. Status: ok
-[1536243504.363][INFO]: RESPONSE Navigate
-[1536243504.365][INFO]: COMMAND GetTitle {
+[1537360890.767][INFO]: Waiting for pending navigations...
+[1537360890.777][INFO]: Done waiting for pending navigations. Status: ok
+[1537360891.815][INFO]: Waiting for pending navigations...
+[1537360892.131][INFO]: Done waiting for pending navigations. Status: ok
+[1537360892.131][INFO]: RESPONSE Navigate
+[1537360892.133][INFO]: COMMAND GetTitle {
 
 }
-[1536243504.365][INFO]: Waiting for pending navigations...
-[1536243504.377][INFO]: Done waiting for pending navigations. Status: ok
-[1536243504.386][INFO]: Waiting for pending navigations...
-[1536243504.387][INFO]: Done waiting for pending navigations. Status: ok
-[1536243504.387][INFO]: RESPONSE GetTitle "Google"
-[1536243504.389][INFO]: COMMAND Navigate {
-   "sessionId": "7ae983526b4ad83b1e623c755c6b8f18",
+[1537360892.133][INFO]: Waiting for pending navigations...
+[1537360892.136][INFO]: Done waiting for pending navigations. Status: ok
+[1537360892.138][INFO]: Waiting for pending navigations...
+[1537360892.139][INFO]: Done waiting for pending navigations. Status: ok
+[1537360892.139][INFO]: RESPONSE GetTitle "Google"
+[1537360892.140][INFO]: COMMAND Navigate {
+   "sessionId": "e30c7623efe3dfff3e39b8c2888327d5",
    "url": "http://www.yandex.ru"
 }
-[1536243504.389][INFO]: Waiting for pending navigations...
-[1536243504.390][INFO]: Done waiting for pending navigations. Status: ok
-[1536243505.784][INFO]: Waiting for pending navigations...
-[1536243508.294][INFO]: Done waiting for pending navigations. Status: ok
-[1536243508.294][INFO]: RESPONSE Navigate
-[1536243508.295][INFO]: COMMAND GetTitle {
+[1537360892.140][INFO]: Waiting for pending navigations...
+[1537360892.141][INFO]: Done waiting for pending navigations. Status: ok
+[1537360892.854][INFO]: Waiting for pending navigations...
+[1537360893.961][INFO]: Done waiting for pending navigations. Status: ok
+[1537360893.961][INFO]: RESPONSE Navigate
+[1537360893.962][INFO]: COMMAND GetTitle {
 
 }
-[1536243508.295][INFO]: Waiting for pending navigations...
-[1536243508.296][INFO]: Done waiting for pending navigations. Status: ok
-[1536243508.299][INFO]: Waiting for pending navigations...
-[1536243508.300][INFO]: Done waiting for pending navigations. Status: ok
-[1536243508.300][INFO]: RESPONSE GetTitle "Яндекс"
-[1536243509.301][INFO]: COMMAND Quit {
+[1537360893.962][INFO]: Waiting for pending navigations...
+[1537360893.963][INFO]: Done waiting for pending navigations. Status: ok
+[1537360893.964][INFO]: Waiting for pending navigations...
+[1537360893.965][INFO]: Done waiting for pending navigations. Status: ok
+[1537360893.965][INFO]: RESPONSE GetTitle "Яндекс"
+[1537360894.968][INFO]: COMMAND Quit {
 
 }
-[1536243509.364][INFO]: RESPONSE Quit
+[1537360894.988][INFO]: RESPONSE Quit

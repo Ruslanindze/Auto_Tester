@@ -1,53 +1,39 @@
-#  -*- coding: cp1251 -*-                                                                                             #
+#  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
+# The script demonstrates desktop recording using ffmpeg.
+# Is done recordind 2 (or 1 th) workers monitors, without any tests.
 #--------------------------------
+import time, os, signal, psutil
+import subprocess as subp
+from os.path import join
 
-PATH_DRIVER_CHROME = r"d:\WORK_MC_21\Tester\Auto_Tester\Drivers\chromedriver.exe"
-PATH_VIDEO = r'd:\WORK_MC_21\Tester\Auto_Tester\PYTHON_PATH\Py_1\Lev_3_home_work_set\T005_LogMaster\examples_logging\video.mp4'
+log_dir = r'd:\WORK_MC_21\Tester\Auto_Tester\PYTHON_PATH\Py_1\Lev_3_home_work_set\T005_LogMaster\examples_logging'  # path where create video
+CORE_DIR = r'c:\FFmpeg\bin'  # path ffmpeg.exe
+id_test = '001'
+video_file = join(log_dir, 'video_' + id_test + '.flv') # name video file
+FFMPEG_BIN = join(CORE_DIR, 'ffmpeg.exe')
 
-import unittest, time, datetime, logging
-from selenium import webdriver
-from test_recorder.video_recorder import VideoRecorder
-#------------------------------------------
+command = [
+    FFMPEG_BIN,
+    '-y',                   # overwrite output files
+    '-loglevel', 'error',
+    '-f', 'gdigrab',
+    # '-framerate', '12',   # default 30
+    '-i', 'desktop',
+    # '-t', '10',           # record or transcode "duration" seconds of audio/video
+    '-s', '3000x1000',
+    '-pix_fmt', 'yuv420p',
+    '-c:v', 'libx264',
+    '-profile:v', 'main',
+    '-fs', '0.7M',          # set the limit file size in bytes
+    video_file
+]
 
-#------------------------------------------
-class TestDemo(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        # создание вебдрайвера с _listener для логирования тестов
-        cls.driver = webdriver.Chrome(PATH_DRIVER_CHROME) # создание обычного драйвера
-        cls.video_record = VideoRecorder()
-        cls.video_record.start_recording()
+# run record video with ffmpeg-commands
+ffmpeg = subp.Popen(command, stdin=subp.PIPE, stdout=subp.PIPE, stderr=subp.PIPE)
+time.sleep(6)
 
-    def test_A(self):
-        """Testing Google title in driver"""
-
-        # Тест пройдёт на ОК
-        self.driver.get("http://www.google.com")
-        self.driver.find_element_by_id('lst-ib').send_keys('Погода Таганрог')
-        self.driver.find_element_by_id('lst-ib').send_keys(u'\ue007')
-
-    def test_B(self):
-        """Testing Yandex title in driver but with bad parameter"""
-
-        # Тест специально завалится для демонстрации настроенной системы логирования
-        self.driver.get("http://www.yandex.ru")
-        self.assertEqual(self.driver.title, "Яндек")
-        self.driver.find_element_by_xpath('//*[@id="text"]').send_keys('Погода Таганрог')
-        self.driver.find_element_by_xpath('//div[@class="search2__button"]/*').click()
-
-    def tearDown(self):
-        # если в самом тесте self на выходе будут обнаружены исключения, то
-        # вызовется метод on_exception объекта класса LogListener
-        time.sleep(3)
-
-    @classmethod
-    def tearDownClass(cls):
-        time.sleep(2)
-        cls.video_record.stop_recording()
-        cls.driver.quit()
-
-#----------------------------------------
-if '__main__' == __name__:
-    unittest.main()
+# close the video stream
+ffmpeg.stdin.write("q".encode('utf-8'))
+ffmpeg.stdin.close()

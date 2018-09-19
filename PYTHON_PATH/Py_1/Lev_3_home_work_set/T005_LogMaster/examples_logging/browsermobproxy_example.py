@@ -1,8 +1,8 @@
-#  -*- coding: cp1251 -*-                                                                                             #
+#  -*- coding: utf-8-*-                                                                                             #
 # Python 3.x.x
 #----------------------------------------------
-# Скрипт демонстрирует запись трафика для firefox
-#   и chrome через browsermobproxy
+# The script demonstrates the recording of traffic for firefox
+#   and chrome through browsermobproxy
 # Src: https://automated-testing.info/t/chto-takoe-browsermob-proxy-i-kak-zastavit-ego-rabotat-tutorial-dlya-nachinayushhih-primer-ispolzovaniya-na-python/3510
 #----------------------------------------------
 PATH_SERVER = r"c:\Program Files (x86)\browsermob-proxy\bin\browsermob-proxy"
@@ -16,13 +16,13 @@ import time, json, pprint, sys
 #----------------------------------------------
 
 def example_1():
-    """Пишет из json в файл для firefox"""
+    """Recording traffic in json for firefox"""
 
-    # запускаем сервер
+    # run server
     server = Server(PATH_SERVER)
     server.start()
 
-    # запускаем proxy и вебдрайвер
+    # run proxy and webdriver
     proxy = server.create_proxy()
     profile = webdriver.FirefoxProfile()
     profile.set_proxy(proxy.selenium_proxy())
@@ -30,10 +30,10 @@ def example_1():
                                 executable_path=PATH_DRIVER_FIREFOX)
     proxy.new_har(PATH_SITE, options={'captureHeaders': True})
     driver.get(PATH_SITE)
-    driver.find_element_by_xpath('//*[@id="text"]').send_keys('Погода Таганрог')
+    driver.find_element_by_xpath('//*[@id="text"]').send_keys('Weather Taganrog')
     driver.find_element_by_xpath('//div[@class="search2__button"]/*').click()
     #------------------------------------------------------------
-    # получаем json объект proxy.har и записываем 3-мя способами
+    # get json object proxy.har and recording
     result = json.dumps(proxy.har, ensure_ascii=False)
     # with open('browsermobproxy_json.har', 'w') as file:
     #     json.dump(result, file)
@@ -42,38 +42,44 @@ def example_1():
     # myfile.write(str(proxy.har))
     # myfile.close()
 
-    sys.stdout = open('browsermobproxy_firefox.json', 'w') #  перенаправляем поток
-    pprint.pprint(result) # pprint - умный вывод, сам переносит строки
-    sys.stdout = sys.__stdout__ # возращаем стандартный поток
+    sys.stdout = open('browsermobproxy_firefox.json', 'w') # redirecting the stream
+    pprint.pprint(result) # pprint - smart line-wrap output
+    sys.stdout = sys.__stdout__ # returns the standarts stream
     # ------------------------------------------------------------
 
-    # выход
+    # close and exit
     proxy.close()
     server.stop()
     time.sleep(2)
     driver.quit()
 #-----------------------------------------------------
 def example_2():
-    """Пишет из json в файл для chrome"""
+    """Recording traffic in json for chrome"""
+
+    # run server
     server = Server(PATH_SERVER)
     server.start()
     proxy = server.create_proxy()
 
+    # run proxy and webdriver
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument("--proxy-server={0}".format(proxy.proxy))
     driver = webdriver.Chrome(chrome_options=chrome_options, \
                               executable_path=PATH_DRIVER_CHROME)
-
     proxy.new_har("google")
+
+
     driver.get("https://www.google.ru")
-    driver.find_element_by_id('lst-ib').send_keys('Погода Таганрог')
+    driver.find_element_by_id('lst-ib').send_keys('Weather Taganrog')
     driver.find_element_by_id('lst-ib').send_keys(u'\ue007')
 
+    # get json object proxy.har and recording
     result = json.dumps(proxy.har)
-    sys.stdout = open('browsermobproxy_chrome.json', 'w') #  перенаправляем поток
-    pprint.pprint(result) # pprint - умный вывод, сам переносит строки
-    sys.stdout = sys.__stdout__ # возращаем стандартный поток
+    sys.stdout = open('browsermobproxy_chrome.json', 'w') # redirecting the stream
+    pprint.pprint(result) # pprint - smart line-wrap output
+    sys.stdout = sys.__stdout__ # returns the standarts stream
 
+    # close and exit
     server.stop()
     time.sleep(2)
     driver.quit()

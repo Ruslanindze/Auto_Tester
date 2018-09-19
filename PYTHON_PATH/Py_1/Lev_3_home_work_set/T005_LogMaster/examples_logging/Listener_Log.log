@@ -1,1 +1,1 @@
-09/05/2018 03:31:27 PM #ERROR: (<class 'AssertionError'>, AssertionError("'яндекс' != 'яндек'\n- яндекс\n?      -\n+ яндек\n",), <traceback object at 0x0306D788>)
+09/19/2018 02:45:54 PM #ERROR: (<class 'AssertionError'>, AssertionError("'яндекс' != 'Yandex'\n- яндекс\n+ Yandex\n",), <traceback object at 0x03069030>)

@@ -1,10 +1,10 @@
-#  -*- coding: cp1251 -*-                                                                                             #
+#  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
 from selenium.webdriver.common.by import By
 #--------------------------------
 class Home:
-    """Çäåñü îïèñàíû ëîêàòîğû äëÿ äîìàùíåé ñòğàíèöû"""
+    """Ğ—Ğ´ĞµÑÑŒ Ğ¾Ğ¿Ğ¸ÑĞ°Ğ½Ñ‹ Ğ»Ğ¾ĞºĞ°Ñ‚Ğ¾Ñ€Ñ‹ Ğ´Ğ»Ñ Ğ´Ğ¾Ğ¼Ğ°Ñ‰Ğ½ĞµĞ¹ ÑÑ‚Ñ€Ğ°Ğ½Ğ¸Ñ†Ñ‹"""
     ContactUs = (By.XPATH, '//*[@id="contact-link"]/a')
     SignIn    = (By.CSS_SELECTOR, 'nav > div.header_user_info > a')
     GetSav    = (By.CSS_SELECTOR, 'div.banner > div > div > a > img')

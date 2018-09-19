@@ -1,4 +1,4 @@
-#  -*- coding: cp1251 -*-                                                                                             #
+#  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #----------------------
 import sys, os
@@ -18,14 +18,14 @@ class Driver_Manager(object):
         if not getattr(Driver_Manager, "__driver", None):
             if not browser or "chrome" == browser.lower():
                 self.__driver = webdriver.Chrome(
-                    executable_path=SC.PATH_DRIVER_CHROME)  # создаем объект, позволяющий запускать сайт в режиме ПО
+                    executable_path=SC.PATH_DRIVER_CHROME)  # СЃРѕР·РґР°РµРј РѕР±СЉРµРєС‚, РїРѕР·РІРѕР»СЏСЋС‰РёР№ Р·Р°РїСѓСЃРєР°С‚СЊ СЃР°Р№С‚ РІ СЂРµР¶РёРјРµ РџРћ
             elif "ie" == browser.lower():
                 self.__driver = webdriver.Ie(\
-                    executable_path=SC.PATH_DRIVER_IE)  # создаем объект, позволяющий запускать сайт в режиме ПО
+                    executable_path=SC.PATH_DRIVER_IE)  # СЃРѕР·РґР°РµРј РѕР±СЉРµРєС‚, РїРѕР·РІРѕР»СЏСЋС‰РёР№ Р·Р°РїСѓСЃРєР°С‚СЊ СЃР°Р№С‚ РІ СЂРµР¶РёРјРµ РџРћ
             elif 'firefox' == browser.lower():
                 self.__driver = webdriver.Firefox(\
                     executable_path=SC.PATH_DRIVER_FIREFOX, \
-                    service_log_path=SC.PATH_LOG)  # создаем объект, позволяющий запускать сайт в режиме ПО
+                    service_log_path=SC.PATH_LOG)  # СЃРѕР·РґР°РµРј РѕР±СЉРµРєС‚, РїРѕР·РІРѕР»СЏСЋС‰РёР№ Р·Р°РїСѓСЃРєР°С‚СЊ СЃР°Р№С‚ РІ СЂРµР¶РёРјРµ РџРћ
     # -----------------------------------
     @property
     def driver(self):
@@ -34,6 +34,6 @@ class Driver_Manager(object):
     def driver(self, new_driver):
         self.__driver = new_driver
 # ----------------------------------------------------
-# Запуск для отладки
+# Р—Р°РїСѓСЃРє РґР»СЏ РѕС‚Р»Р°РґРєРё
 if '__main__' == __name__:
     pass

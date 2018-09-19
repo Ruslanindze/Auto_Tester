@@ -1,12 +1,9 @@
-#  -*- coding: cp1251 -*-                                                                                             #
+#  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
-# Если использовать сырую библиотеку logging, то смысла я в ней не вижу.
-# logging логирует либо просто запросы и то только в режиме DEBUG,
-#   либо то, что укажешь сам, типа logging.warning("Происходит что то опасное")
-# Однако в сочатании с каким-нибудь другим логером , можно использовать вместо
-#   обычного print или перенаправления потока, удобный вывод, если настроить
-#   logging.basicConfig()
+# If I use the raw logging library, I don't see the point.
+# logging or simply logging the requests and then only in DEBUG mode,
+# or what you specify yourself, such as logging.warning("there is something dangerous")
 #--------------------------------
 import logging
 import unittest, time, os
