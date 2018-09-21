@@ -24,8 +24,7 @@ class Driver_Manager(object):
                     executable_path=SC.PATH_DRIVER_IE)  # создаем объект, позволяющий запускать сайт в режиме ПО
             elif 'firefox' == browser.lower():
                 self.__driver = webdriver.Firefox(\
-                    executable_path=SC.PATH_DRIVER_FIREFOX, \
-                    service_log_path=SC.PATH_LOG)  # создаем объект, позволяющий запускать сайт в режиме ПО
+                    executable_path=SC.PATH_DRIVER_FIREFOX)  # создаем объект, позволяющий запускать сайт в режиме ПО
     # -----------------------------------
     @property
     def driver(self):

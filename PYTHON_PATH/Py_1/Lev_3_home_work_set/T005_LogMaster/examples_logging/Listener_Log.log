@@ -1,1 +1,7 @@
-09/19/2018 02:45:54 PM #ERROR: (<class 'AssertionError'>, AssertionError("'������' != 'Yandex'\n- ������\n+ Yandex\n",), <traceback object at 0x03069030>)
+# INFO     [2018-09-21 12:49:57,815]#  before_find   -> __main__.TestDemo.test_A: xpath //input[@name="btnI"]
+# INFO     [2018-09-21 12:49:57,828]#  after_find    -> __main__.TestDemo.test_A: xpath //input[@name="btnI"] 
+# INFO     [2018-09-21 12:49:57,828]#  before_click  -> __main__.TestDemo.test_A: <selenium.webdriver.remote.webelement.WebElement (session="fca895dcbbec12abad5fab8ddaf87a4a", element="0.007775867320992003-1")>
+# INFO     [2018-09-21 12:50:33,873]#  before_find   -> __main__.TestDemo.test_B: xpath //*[@data-id="video"]
+# INFO     [2018-09-21 12:50:33,887]#  after_find    -> __main__.TestDemo.test_B: xpath //*[@data-id="video"] 
+# INFO     [2018-09-21 12:50:33,887]#  before_click  -> __main__.TestDemo.test_B: <selenium.webdriver.remote.webelement.WebElement (session="fca895dcbbec12abad5fab8ddaf87a4a", element="0.242039900952284-1")>
+# ERROR    [2018-09-21 12:50:40,161]#  on_exception  -> __main__.TestDemo.test_B: (<class 'AssertionError'>, AssertionError("'Смотрите видео онлайн: сериалы, мультики, игры, клипы, фильмы на Яндексе' != 'Яндекс'\n- Смотрите видео онлайн: сериалы, мультики, игры, клипы, фильмы на Яндексе\n+ Яндекс\n",), <traceback object at 0x030FF8C8>)
