@@ -1,4 +1,4 @@
-#  -*- coding: cp1251 -*-                                                                                             #
+#  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
 from selenium import webdriver

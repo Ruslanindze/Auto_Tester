@@ -13,18 +13,31 @@ import T005_LogMaster.Str_Const as SC
 #--------------------------------
 class Driver_Manager(object):
     count_run = 0
-    def __init__(self, browser = ""):
+    def __init__(self, browser = None, options = None):
         Driver_Manager.count_run += 1
         if not getattr(Driver_Manager, "__driver", None):
-            if not browser or "chrome" == browser.lower():
-                self.__driver = webdriver.Chrome(
-                    executable_path=SC.PATH_DRIVER_CHROME)  # создаем объект, позволяющий запускать сайт в режиме ПО
+            if "chrome" == browser.lower() or not browser:
+                if options:
+                    # создадим веб-драйвер с  профилем для browsermobproxy
+                    self.__driver = webdriver.Chrome(
+                        executable_path=SC.PATH_DRIVER_CHROME,\
+                        chrome_options=options)
+                else:
+                    self.__driver = webdriver.Chrome(
+                        executable_path=SC.PATH_DRIVER_CHROME)
+            elif 'firefox' == browser.lower():
+                print(__file__, browser)
+                if options:
+                    self.__driver = webdriver.Firefox(\
+                        executable_path=SC.PATH_DRIVER_FIREFOX,\
+                        firefox_profile=options
+                        )
+                else:
+                    self.__driver = webdriver.Firefox( \
+                        executable_path=SC.PATH_DRIVER_FIREFOX)
             elif "ie" == browser.lower():
                 self.__driver = webdriver.Ie(\
                     executable_path=SC.PATH_DRIVER_IE)  # создаем объект, позволяющий запускать сайт в режиме ПО
-            elif 'firefox' == browser.lower():
-                self.__driver = webdriver.Firefox(\
-                    executable_path=SC.PATH_DRIVER_FIREFOX)  # создаем объект, позволяющий запускать сайт в режиме ПО
     # -----------------------------------
     @property
     def driver(self):

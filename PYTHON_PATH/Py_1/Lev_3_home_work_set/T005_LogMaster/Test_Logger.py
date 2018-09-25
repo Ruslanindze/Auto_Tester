@@ -23,31 +23,44 @@ import T005_LogMaster.LocatorsC as Loc
 import T005_LogMaster.DriverManager as DM
 import T005_LogMaster.Str_Const as SC
 import T005_LogMaster.LoggerC as Log
+
+from browsermobproxy import Server, Client
+import pprint, json
 #--------------------------------
 
 #--------------------------------
-class Test_Actions(unittest.TestCase):
+class Test_Logger(unittest.TestCase):
     Browser = None
     currentResult = None  # holds last result object passed to run method
+    Path_Video = None
     #-----------------------------------
     @classmethod
     def setResult(cls, amount, errors, failures, skipped):
+        """Метод для добавления статистика тестов (кол-во КО, ОК и т.п)"""
         cls.amount, cls.errors, cls.failures, cls.skipped = \
             amount, errors, failures, skipped
 
     @classmethod
     def setUpClass(cls):
-        driver = DM.Driver_Manager(cls.Browser).driver
-        cls.driver = Log.LogListener.get_ef_driver(driver)
+        cls.mob_proxy = Log.LogMobProxy(SC.PATH_MOB_PROXY, cls.Browser)
+        cls.driver = Log.LogListener.get_ef_driver(cls.mob_proxy.driver)
+        cls.mob_proxy.proxy.new_har(__file__, options={'captureHeaders': True, \
+                                          'captureContent': False})
+
         cls.HomeP = Obj.Home(cls.driver)
     #-----------------------------------
     def setUp(self):
         self.driver._listener.get_method_name(self.id())
+
+        self.Path_Video = os.path.join(SC.PATH_VIDEO, \
+                                       '{}.flv'.format(self.id()))
+        self.VideoRec = Log.VideoRecorder(SC.PATH_FFMPEG, self.Path_Video)
+        self.VideoRec.start()
     #-----------------------------------
     def run(self, result=None):
         self.currentResult = result # remember result for use in tearDown
         unittest.TestCase.run(self, result) # call superclass run method
-
+    #-----------------------------------
     def test_A_Women(self):
         #--------- найдем нужный элемент
         check_elem = self.HomeP.Women
@@ -63,6 +76,7 @@ class Test_Actions(unittest.TestCase):
         self.assertEqual(len(set(size_old.items()) ^ set(size_cur.items())), 0)
         self.assertEqual('rgba(0, 0, 0, 0)', rgba_old)
         self.assertEqual('rgba(51, 51, 51, 1)', rgba_cur)
+
     #-----------------------------------
     def test_B_TShirts(self):
         #-------- находим нужные элементы
@@ -87,16 +101,27 @@ class Test_Actions(unittest.TestCase):
         self.assertEqual(self.driver.current_url , SC.TSHIRTS_PAGE)
     #-----------------------------------
     def tearDown(self):
+        #------------- для получения статистики прогона
         amount = self.currentResult.testsRun
         errors = self.currentResult.errors
         failures = self.currentResult.failures
         skipped = self.currentResult.skipped
         self.setResult(amount, errors, failures, skipped)
+        # ------------- для получения статистики прогона
 
+        # -------------- для логирования упавших тестов
         time.sleep(2)
+        find_err = False
         for method, error in self._outcome.errors:
             if error:
+                find_err = True
                 self.driver._listener.on_exception(error, self.driver)
+
+        self.VideoRec.stop()
+        if not find_err:
+            if os.path.exists(self.Path_Video):
+                os.remove(self.Path_Video)
+        # -------------- для логирования упавших тестов
     # -----------------------------------
     @classmethod
     def tearDownClass(cls):
@@ -105,11 +130,17 @@ class Test_Actions(unittest.TestCase):
         cls.driver._listener.get_statis_tests( \
             cls.amount, len(cls.failures)+ len(cls.errors),\
             cls.amount-len(cls.failures) - len(cls.errors))
+
         cls.driver.close()
+
+        # -------------- для записи траффика *.har
+        cls.mob_proxy.rec_traffic('{}.har'.format(__file__[:-3]))
+        cls.mob_proxy.stop_MobProxy()
+        # -------------- для записи траффика *.har
 
 #--------------------------------
 if __name__ == '__main__':
-    Test_Actions.Browser = 'chrome'
+    Test_Logger.Browser = 'chrome'
     loader = unittest.TestLoader()
     runner = unittest.TextTestRunner(verbosity=2)
-    result = runner.run(loader.loadTestsFromTestCase(Test_Actions))
+    result = runner.run(loader.loadTestsFromTestCase(Test_Logger))

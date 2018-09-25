@@ -29,7 +29,8 @@ def example_1():
     driver  = webdriver.Firefox(firefox_profile=profile,\
                                 executable_path=PATH_DRIVER_FIREFOX)
 
-    proxy.new_har(PATH_SITE, options={'captureHeaders': True})
+    proxy.new_har(PATH_SITE, options={'captureHeaders': True, \
+                                    'captureContent':True})
     driver.get(PATH_SITE)
     driver.find_element_by_xpath('//*[@id="text"]').send_keys('Weather Taganrog')
     driver.find_element_by_xpath('//div[@class="search2__button"]/*').click()

@@ -6,13 +6,14 @@
 # 2) записывать траффик в формат через pprint (*.har);
 # 3) записывать видео в формате *.flv (иди др. формат)
 #--------------------------------
-import logging, sys, pprint, subprocess as subp
+import logging, sys, pprint, time, subprocess as subp
 
 from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriver
 from selenium.webdriver.support.event_firing_webdriver import AbstractEventListener
 
 from browsermobproxy import Server, Client
 from selenium import webdriver
+import T005_LogMaster.DriverManager as DM
 #--------------------------------- zone LogListener
 class LogListener(AbstractEventListener):
     """Класс отслеживает события и выводит в *.log, события переопределяются"""
@@ -73,33 +74,31 @@ class LogListener(AbstractEventListener):
 #--------------------------------- zone LogMobProxy
 class LogMobProxy():
     """Класс выводит траффик теста selenium"""
-    def __init__(self, driver, path_server, browser='chrome'):
+
+    def __init__(self, path_server, browser='chrome'):
+        self.browser = browser
+
         self.server = Server(path_server)
         self.server.start()
-
-        self.browser = browser
-        self.create_proxy()
-
-        self.driver = driver
-        self.create_options() # create ChromeOptions or profile for Firefox
-    #------------------------------------
-    def create_proxy(self):
         self.proxy = self.server.create_proxy()
 
+        self.create_options()
+        self.driver = DM.Driver_Manager(self.browser, self.options).driver
+    #-----------------------------------------------------
     def create_options(self):
-        if 'chrome' == self.browser.lower():
+        if 'firefox' == self.browser.lower():
             self.options = webdriver.FirefoxProfile()
             self.options.set_proxy(self.proxy.selenium_proxy())
-        elif 'firefox' == self.browser.lower():
+        elif 'chrome' == self.browser.lower():
             self.options = webdriver.ChromeOptions()
             self.options.add_argument("--proxy-server={0}".\
                         format(self.proxy.proxy))
-
+    # -----------------------------------------------------
     def rec_traffic(self, file):
-        sys.stdout = open(file, 'w')  # redirecting the stream
+        sys.stdout = open(file, 'w', encoding='utf-8')  # redirecting the stream
         pprint.pprint(self.proxy.har)
         sys.stdout = sys.__stdout__  # returns the standarts stream
-
+    #-----------------------------------------------------
     def stop_MobProxy(self):
         self.proxy.close()
         self.server.stop()
@@ -112,7 +111,7 @@ class VideoRecorder():
     """Необходим установленный ffmpeg в консоле"""
     #------------------------------------
     def __init__(self, path_ffmpeg_bin, path_video):
-        command = [
+        self.command = [
             path_ffmpeg_bin,
             '-y',  # overwrite output files
             '-loglevel', 'error',
@@ -131,8 +130,11 @@ class VideoRecorder():
     def start(self):
         self.ffmpeg = subp.Popen(self.command, stdin=subp.PIPE, \
                         stdout=subp.PIPE, stderr=subp.PIPE)
+        time.sleep(2)
     #------------------------------------
     def stop(self):
+        time.sleep(2)
         self.ffmpeg.stdin.write("q".encode('utf-8'))
         self.ffmpeg.stdin.close()
+        time.sleep(1)
 #--------------------------------- zone VideoRecorder

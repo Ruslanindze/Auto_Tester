@@ -1,4 +1,4 @@
-#  -*- coding: cp1251 -*-                                                                                             #
+#  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
 import unittest
@@ -81,11 +81,11 @@ class Test_DriverMan(unittest.TestCase):
     def test_D_Purchase(self):
         print('Browser', self.Browser)
         """“ест провер€ет заголовок и цену, и заполн€ет пол€"""
-        # ѕровер€ем по заголовку, те ли города мы выбралиы
+        # проверяем по заголовку, те ли города мы выбралиы
         h2 = self.Purchase.H2
         self.assertIn('from {0} to {1}'.format(self.Departure, self.Destination), h2.get_attribute('textContent'))
 
-        # ѕровер€ем, та ли цена
+        # проверяем, та ли цена
         Price = self.Purchase.Price
         curr_price = float(Price.get_attribute('textContent').split()[-1])
         self.assertEqual(self.Price, curr_price)
