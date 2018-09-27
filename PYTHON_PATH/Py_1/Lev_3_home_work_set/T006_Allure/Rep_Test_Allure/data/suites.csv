@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"passed","Test_Allure.Test_Logger.test_A_Women","16220",""
+"failed","Test_Allure.Test_Logger.test_B_TShirts","9208",""

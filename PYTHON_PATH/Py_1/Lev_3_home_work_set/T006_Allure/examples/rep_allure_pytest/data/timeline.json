@@ -1,0 +1,85 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Dudnikov",
+    "children" : [ {
+      "name" : "988-MainThread",
+      "children" : [ {
+        "name" : "test_failure",
+        "uid" : "a3c7a43633b03f86",
+        "parentUid" : "4fb67cf429f0b71e3b987cc3bc0499dd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537969909163,
+          "stop" : 1537969909194,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_xfail_unexpected_pass",
+        "uid" : "f23dfe9af76c2138",
+        "parentUid" : "4fb67cf429f0b71e3b987cc3bc0499dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537969909205,
+          "stop" : 1537969909206,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_xfail_expected_failure",
+        "uid" : "994046f83e5250c7",
+        "parentUid" : "4fb67cf429f0b71e3b987cc3bc0499dd",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1537969909201,
+          "stop" : 1537969909204,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_broken",
+        "uid" : "1e279e180685e8a1",
+        "parentUid" : "4fb67cf429f0b71e3b987cc3bc0499dd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537969909197,
+          "stop" : 1537969909200,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skip",
+        "uid" : "503e71f1f0e031d4",
+        "parentUid" : "4fb67cf429f0b71e3b987cc3bc0499dd",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1537969909195,
+          "stop" : 1537969909197,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success",
+        "uid" : "f058de7b26715957",
+        "parentUid" : "4fb67cf429f0b71e3b987cc3bc0499dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537969909157,
+          "stop" : 1537969909162,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4fb67cf429f0b71e3b987cc3bc0499dd"
+    } ],
+    "uid" : "9a5dafd2d26069e4f5f01c20ac7243e0"
+  } ]
+}

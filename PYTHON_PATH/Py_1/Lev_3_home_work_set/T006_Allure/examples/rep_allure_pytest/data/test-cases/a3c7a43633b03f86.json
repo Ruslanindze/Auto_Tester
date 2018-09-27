@@ -1,0 +1,66 @@
+{
+  "uid" : "a3c7a43633b03f86",
+  "name" : "test_failure",
+  "fullName" : "allure_pytest.test_failure",
+  "historyId" : "fcfa4168d9c5789ef3abd767c6aeb989",
+  "time" : {
+    "start" : 1537969909163,
+    "stop" : 1537969909194,
+    "duration" : 31
+  },
+  "description" : "this test fails",
+  "descriptionHtml" : "<p>this test fails</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "def test_failure():\n        \"\"\"this test fails\"\"\"\n>       assert False\nE       assert False\n\nallure_pytest.py:19: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Dudnikov"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "988-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_failure"
+  }, {
+    "name" : "package",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a3c7a43633b03f86.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Dudnikov",
+    "children" : [ {
+      "name" : "4964-MainThread",
+      "children" : [ {
+        "name" : "DemoAllure.test_site_loads",
+        "uid" : "2dfcf45c9ba1e09b",
+        "parentUid" : "0e120f1bb2c975f07f68c0c60bf8f584",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537967730776,
+          "stop" : 1537967743655,
+          "duration" : 12879
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DemoAllure_fix.test_site_loads",
+        "uid" : "af460369170f56bb",
+        "parentUid" : "0e120f1bb2c975f07f68c0c60bf8f584",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537967743656,
+          "stop" : 1537967753921,
+          "duration" : 10265
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e120f1bb2c975f07f68c0c60bf8f584"
+    } ],
+    "uid" : "9a5dafd2d26069e4f5f01c20ac7243e0"
+  } ]
+}

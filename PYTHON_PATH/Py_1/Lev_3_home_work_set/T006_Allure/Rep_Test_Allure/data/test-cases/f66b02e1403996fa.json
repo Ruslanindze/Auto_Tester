@@ -1,0 +1,106 @@
+{
+  "uid" : "f66b02e1403996fa",
+  "name" : "Test_Logger.test_B_TShirts",
+  "fullName" : "Test_Allure.Test_Logger.test_B_TShirts",
+  "historyId" : "ff5490b887d5dbc012411eb0fb531075",
+  "time" : {
+    "start" : 1538045533685,
+    "stop" : 1538045542893,
+    "duration" : 9208
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 'rgba(0, 0, 0, 0)' != 'rgba(51, 51, 51, 1)'\n- rgba(0, 0, 0, 0)\n+ rgba(51, 51, 51, 1)\n",
+  "statusTrace" : "self = <Test_Allure.Test_Logger testMethod=test_B_TShirts>\n\n    @pytest.allure.step(\"Проверка цвета T-SHIRTS при наведении мышки\")\n    def test_B_TShirts(self):\n        #-------- находим нужные элементы\n        women = self.HomeP.Women\n        t_shirts = self.HomeP.T_shirts\n    \n        #-------- проверяем передвижение мышки и смены цвета\n        rgba_women_0 = women.value_of_css_property('background-color')\n>       self.assertEqual('rgba(0, 0, 0, 0)', rgba_women_0)\nE       AssertionError: 'rgba(0, 0, 0, 0)' != 'rgba(51, 51, 51, 1)'\nE       - rgba(0, 0, 0, 0)\nE       + rgba(51, 51, 51, 1)\n\nTest_Allure.py:60: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 'rgba(0, 0, 0, 0)' != 'rgba(51, 51, 51, 1)'\n- rgba(0, 0, 0, 0)\n+ rgba(51, 51, 51, 1)\n",
+    "statusTrace" : "self = <Test_Allure.Test_Logger testMethod=test_B_TShirts>\n\n    @pytest.allure.step(\"Проверка цвета T-SHIRTS при наведении мышки\")\n    def test_B_TShirts(self):\n        #-------- находим нужные элементы\n        women = self.HomeP.Women\n        t_shirts = self.HomeP.T_shirts\n    \n        #-------- проверяем передвижение мышки и смены цвета\n        rgba_women_0 = women.value_of_css_property('background-color')\n>       self.assertEqual('rgba(0, 0, 0, 0)', rgba_women_0)\nE       AssertionError: 'rgba(0, 0, 0, 0)' != 'rgba(51, 51, 51, 1)'\nE       - rgba(0, 0, 0, 0)\nE       + rgba(51, 51, 51, 1)\n\nTest_Allure.py:60: AssertionError",
+    "steps" : [ {
+      "name" : "Проверка цвета T-SHIRTS при наведении мышки",
+      "time" : {
+        "start" : 1538045535698,
+        "stop" : 1538045535743,
+        "duration" : 45
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <Test_Allure.Test_Logger testMethod=test_B_TShirts>\n\n    @pytest.allure.step(\"Проверка цвета T-SHIRTS при наведении мышки\")\n    def test_B_TShirts(self):\n        #-------- находим нужные элементы\n        women = self.HomeP.Women\n        t_shirts = self.HomeP.T_shirts\n    \n        #-------- проверяем передвижение мышки и смены цвета\n        rgba_women_0 = women.value_of_css_property('background-color')\n>       self.assertEqual('rgba(0, 0, 0, 0)', rgba_women_0)\nE       AssertionError: 'rgba(0, 0, 0, 0)' != 'rgba(51, 51, 51, 1)'\nE       - rgba(0, 0, 0, 0)\nE       + rgba(51, 51, 51, 1)\n\nTest_Allure.py:60: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c3b34398fe07ccd4",
+      "name" : "screenshot",
+      "source" : "c3b34398fe07ccd4.png",
+      "type" : "image/png",
+      "size" : 477049
+    }, {
+      "uid" : "647464e4fb985690",
+      "name" : "Captured log call",
+      "source" : "647464e4fb985690.txt",
+      "type" : "text/plain",
+      "size" : 495
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Dudnikov"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "8644-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Test_Allure"
+  }, {
+    "name" : "testClass",
+    "value" : "Test_Allure"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Logger.test_B_TShirts"
+  }, {
+    "name" : "package",
+    "value" : "Test_Allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f66b02e1403996fa.json",
+  "parameterValues" : [ ]
+}

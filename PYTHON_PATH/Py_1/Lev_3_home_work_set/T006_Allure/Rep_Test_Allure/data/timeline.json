@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Dudnikov",
+    "children" : [ {
+      "name" : "8644-MainThread",
+      "children" : [ {
+        "name" : "Test_Logger.test_A_Women",
+        "uid" : "5b986a275ce28710",
+        "parentUid" : "4ea279e3d64e7b992c62b33e3b8720b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1538045517462,
+          "stop" : 1538045533682,
+          "duration" : 16220
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_Logger.test_B_TShirts",
+        "uid" : "f66b02e1403996fa",
+        "parentUid" : "4ea279e3d64e7b992c62b33e3b8720b3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1538045533685,
+          "stop" : 1538045542893,
+          "duration" : 9208
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ea279e3d64e7b992c62b33e3b8720b3"
+    } ],
+    "uid" : "9a5dafd2d26069e4f5f01c20ac7243e0"
+  } ]
+}

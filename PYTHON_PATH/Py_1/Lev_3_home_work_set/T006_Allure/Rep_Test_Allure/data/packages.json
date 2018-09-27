@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Test_Allure",
+    "children" : [ {
+      "name" : "Test_Logger.test_A_Women",
+      "uid" : "5b986a275ce28710",
+      "parentUid" : "9ec4a01efa3106d652206d371687c5fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538045517462,
+        "stop" : 1538045533682,
+        "duration" : 16220
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_Logger.test_B_TShirts",
+      "uid" : "f66b02e1403996fa",
+      "parentUid" : "9ec4a01efa3106d652206d371687c5fb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1538045533685,
+        "stop" : 1538045542893,
+        "duration" : 9208
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9ec4a01efa3106d652206d371687c5fb"
+  } ]
+}

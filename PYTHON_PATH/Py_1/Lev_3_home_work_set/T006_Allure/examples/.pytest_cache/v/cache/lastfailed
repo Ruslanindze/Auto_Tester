@@ -1,0 +1,4 @@
+{
+  "allure_pytest.py::test_broken": true,
+  "allure_pytest.py::test_failure": true
+}

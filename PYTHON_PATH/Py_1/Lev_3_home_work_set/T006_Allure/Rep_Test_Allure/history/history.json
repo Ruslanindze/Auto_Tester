@@ -1,0 +1,41 @@
+{
+  "f8e68f360665f9d6835da7dcd399de0c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b986a275ce28710",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538045517462,
+        "stop" : 1538045533682,
+        "duration" : 16220
+      }
+    } ]
+  },
+  "ff5490b887d5dbc012411eb0fb531075" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f66b02e1403996fa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'rgba(0, 0, 0, 0)' != 'rgba(51, 51, 51, 1)'\n- rgba(0, 0, 0, 0)\n+ rgba(51, 51, 51, 1)\n",
+      "time" : {
+        "start" : 1538045533685,
+        "stop" : 1538045542893,
+        "duration" : 9208
+      }
+    } ]
+  }
+}

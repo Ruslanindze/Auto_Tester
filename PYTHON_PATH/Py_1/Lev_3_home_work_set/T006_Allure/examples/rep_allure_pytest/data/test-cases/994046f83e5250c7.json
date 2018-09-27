@@ -1,0 +1,62 @@
+{
+  "uid" : "994046f83e5250c7",
+  "name" : "test_xfail_expected_failure",
+  "fullName" : "allure_pytest.test_xfail_expected_failure",
+  "historyId" : "d0a64d33f1cc5919fc3d69a82d30abb8",
+  "time" : {
+    "start" : 1537969909201,
+    "stop" : 1537969909204,
+    "duration" : 3
+  },
+  "description" : "this test is an xfail that will be marked as expected failure",
+  "descriptionHtml" : "<p>this test is an xfail that will be marked as expected failure</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "this test is expecting failure",
+  "statusTrace" : "@pytest.mark.xfail(condition=lambda: True, reason='this test is expecting failure')\n    def test_xfail_expected_failure():\n        \"\"\"this test is an xfail that will be marked as expected failure\"\"\"\n>       assert False\nE       assert False\n\nallure_pytest.py:33: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Dudnikov"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "988-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_xfail_expected_failure"
+  }, {
+    "name" : "package",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "994046f83e5250c7.json",
+  "parameterValues" : [ ]
+}

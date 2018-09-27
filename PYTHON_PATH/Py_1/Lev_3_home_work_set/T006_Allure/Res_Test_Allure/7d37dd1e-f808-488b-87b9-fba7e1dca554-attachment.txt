@@ -1,0 +1,1 @@
+LoggerC.py                  52 INFO     Test_Allure.Test_Logger.test_A_Women: xpath //*[@id="block_top_menu"]/ul/li[1]/a

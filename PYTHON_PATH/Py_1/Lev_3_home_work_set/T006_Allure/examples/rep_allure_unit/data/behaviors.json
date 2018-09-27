@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "DemoAllure.test_site_loads",
+    "uid" : "2dfcf45c9ba1e09b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537967730776,
+      "stop" : 1537967743655,
+      "duration" : 12879
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DemoAllure_fix.test_site_loads",
+    "uid" : "af460369170f56bb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537967743656,
+      "stop" : 1537967753921,
+      "duration" : 10265
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

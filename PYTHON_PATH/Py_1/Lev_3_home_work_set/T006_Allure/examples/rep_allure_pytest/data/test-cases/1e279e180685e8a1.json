@@ -1,0 +1,66 @@
+{
+  "uid" : "1e279e180685e8a1",
+  "name" : "test_broken",
+  "fullName" : "allure_pytest.test_broken",
+  "historyId" : "7130b4fc9d581bc2e60572b9c4851c2f",
+  "time" : {
+    "start" : 1537969909197,
+    "stop" : 1537969909200,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Exception: oops",
+  "statusTrace" : "def test_broken():\n>       raise Exception('oops')\nE       Exception: oops\n\nallure_pytest.py:28: Exception",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Dudnikov"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "988-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_broken"
+  }, {
+    "name" : "package",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1e279e180685e8a1.json",
+  "parameterValues" : [ ]
+}

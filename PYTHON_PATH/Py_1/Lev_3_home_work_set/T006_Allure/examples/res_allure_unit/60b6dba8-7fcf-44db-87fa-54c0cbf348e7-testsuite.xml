@@ -1,0 +1,56 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1537967730776" stop="1537967753921">
+  <name>allure_ex_0</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1537967730776" status="passed" stop="1537967743655">
+      <name>DemoAllure.test_site_loads</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4964-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1537967730782" status="passed" stop="1537967743629">
+          <name>Launch site</name>
+          <title>Launch site</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1537967743629" status="passed" stop="1537967743655">
+          <name>Verify Title loaded</name>
+          <title>Verify Title loaded</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1537967743656" status="passed" stop="1537967753921">
+      <name>DemoAllure_fix.test_site_loads</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4964-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1537967746700" status="passed" stop="1537967753888">
+          <name>Launch site</name>
+          <title>Launch site</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1537967753888" status="passed" stop="1537967753921">
+          <name>Verify Title loaded</name>
+          <title>Verify Title loaded</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

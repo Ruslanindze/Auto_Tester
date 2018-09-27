@@ -1,0 +1,60 @@
+{
+  "uid" : "f058de7b26715957",
+  "name" : "test_success",
+  "fullName" : "allure_pytest.test_success",
+  "historyId" : "2265a59ea36d664ab7367b70db02b4a8",
+  "time" : {
+    "start" : 1537969909157,
+    "stop" : 1537969909162,
+    "duration" : 5
+  },
+  "description" : "this test succeeds",
+  "descriptionHtml" : "<p>this test succeeds</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Dudnikov"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "988-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_success"
+  }, {
+    "name" : "package",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f058de7b26715957.json",
+  "parameterValues" : [ ]
+}

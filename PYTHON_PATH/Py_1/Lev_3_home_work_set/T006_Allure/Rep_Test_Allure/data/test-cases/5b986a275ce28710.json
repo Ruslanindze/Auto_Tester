@@ -1,0 +1,91 @@
+{
+  "uid" : "5b986a275ce28710",
+  "name" : "Test_Logger.test_A_Women",
+  "fullName" : "Test_Allure.Test_Logger.test_A_Women",
+  "historyId" : "f8e68f360665f9d6835da7dcd399de0c",
+  "time" : {
+    "start" : 1538045517462,
+    "stop" : 1538045533682,
+    "duration" : 16220
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Проверка цвета WOMEN при наведении мышки",
+      "time" : {
+        "start" : 1538045527582,
+        "stop" : 1538045527681,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "63da1772a796dd6c",
+      "name" : "Captured log call",
+      "source" : "63da1772a796dd6c.txt",
+      "type" : "text/plain",
+      "size" : 120
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Dudnikov"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "8644-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Test_Allure"
+  }, {
+    "name" : "testClass",
+    "value" : "Test_Allure"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Logger.test_A_Women"
+  }, {
+    "name" : "package",
+    "value" : "Test_Allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b986a275ce28710.json",
+  "parameterValues" : [ ]
+}

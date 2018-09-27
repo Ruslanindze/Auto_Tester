@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "299e30ffc6e709593e1dfc0754e1b289",
+    "name" : "allure_pytest",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

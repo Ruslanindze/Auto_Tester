@@ -1,0 +1,120 @@
+{
+  "fcfa4168d9c5789ef3abd767c6aeb989" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3c7a43633b03f86",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1537969909163,
+        "stop" : 1537969909194,
+        "duration" : 31
+      }
+    } ]
+  },
+  "d0a64d33f1cc5919fc3d69a82d30abb8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "994046f83e5250c7",
+      "status" : "skipped",
+      "statusDetails" : "this test is expecting failure",
+      "time" : {
+        "start" : 1537969909201,
+        "stop" : 1537969909204,
+        "duration" : 3
+      }
+    } ]
+  },
+  "c61a5ed45172a35d035597206c9e5a5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "503e71f1f0e031d4",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: for a reason!",
+      "time" : {
+        "start" : 1537969909195,
+        "stop" : 1537969909197,
+        "duration" : 2
+      }
+    } ]
+  },
+  "2265a59ea36d664ab7367b70db02b4a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f058de7b26715957",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537969909157,
+        "stop" : 1537969909162,
+        "duration" : 5
+      }
+    } ]
+  },
+  "b548d343298f402ba22d889385257c19" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f23dfe9af76c2138",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537969909205,
+        "stop" : 1537969909206,
+        "duration" : 1
+      }
+    } ]
+  },
+  "7130b4fc9d581bc2e60572b9c4851c2f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e279e180685e8a1",
+      "status" : "failed",
+      "statusDetails" : "Exception: oops",
+      "time" : {
+        "start" : 1537969909197,
+        "stop" : 1537969909200,
+        "duration" : 3
+      }
+    } ]
+  }
+}

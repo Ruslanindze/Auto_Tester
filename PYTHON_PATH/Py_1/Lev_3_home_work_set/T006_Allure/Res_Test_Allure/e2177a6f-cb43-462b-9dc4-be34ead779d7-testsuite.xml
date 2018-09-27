@@ -1,0 +1,71 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1538045517462" stop="1538045542893">
+  <name>Test_Allure</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1538045517462" status="passed" stop="1538045533682">
+      <name>Test_Logger.test_A_Women</name>
+      <attachments>
+        <attachment source="7d37dd1e-f808-488b-87b9-fba7e1dca554-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8644-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1538045527582" status="passed" stop="1538045527681">
+          <name>Проверка цвета WOMEN при наведении мышки</name>
+          <title>Проверка цвета WOMEN при наведении мышки</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1538045533685" status="failed" stop="1538045542893">
+      <name>Test_Logger.test_B_TShirts</name>
+      <failure>
+        <message>AssertionError: 'rgba(0, 0, 0, 0)' != 'rgba(51, 51, 51, 1)'
+- rgba(0, 0, 0, 0)
++ rgba(51, 51, 51, 1)
+</message>
+        <stack-trace>self = &lt;Test_Allure.Test_Logger testMethod=test_B_TShirts&gt;
+
+    @pytest.allure.step("Проверка цвета T-SHIRTS при наведении мышки")
+    def test_B_TShirts(self):
+        #-------- находим нужные элементы
+        women = self.HomeP.Women
+        t_shirts = self.HomeP.T_shirts
+    
+        #-------- проверяем передвижение мышки и смены цвета
+        rgba_women_0 = women.value_of_css_property('background-color')
+&gt;       self.assertEqual('rgba(0, 0, 0, 0)', rgba_women_0)
+E       AssertionError: 'rgba(0, 0, 0, 0)' != 'rgba(51, 51, 51, 1)'
+E       - rgba(0, 0, 0, 0)
+E       + rgba(51, 51, 51, 1)
+
+Test_Allure.py:60: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="9bf826c8-6db1-41aa-95f3-4629cb351903-attachment.png" title="screenshot" type="image/png"/>
+        <attachment source="8999b007-1e32-4707-b1c3-3c3e54a8119d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8644-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1538045535698" status="failed" stop="1538045535743">
+          <name>Проверка цвета T-SHIRTS при наведении мышки</name>
+          <title>Проверка цвета T-SHIRTS при наведении мышки</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

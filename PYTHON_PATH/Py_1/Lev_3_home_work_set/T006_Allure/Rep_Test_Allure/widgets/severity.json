@@ -1,0 +1,21 @@
+[ {
+  "uid" : "5b986a275ce28710",
+  "name" : "Test_Logger.test_A_Women",
+  "time" : {
+    "start" : 1538045517462,
+    "stop" : 1538045533682,
+    "duration" : 16220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f66b02e1403996fa",
+  "name" : "Test_Logger.test_B_TShirts",
+  "time" : {
+    "start" : 1538045533685,
+    "stop" : 1538045542893,
+    "duration" : 9208
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,114 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1537969909157" stop="1537969909206">
+  <name>allure_pytest</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1537969909157" status="passed" stop="1537969909162">
+      <description>this test succeeds</description>
+      <name>test_success</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="988-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1537969909163" status="failed" stop="1537969909194">
+      <description>this test fails</description>
+      <name>test_failure</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>def test_failure():
+        """this test fails"""
+&gt;       assert False
+E       assert False
+
+allure_pytest.py:19: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="988-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1537969909195" status="canceled" stop="1537969909197">
+      <description>this test is skipped</description>
+      <name>test_skip</name>
+      <failure>
+        <message>Skipped: for a reason!</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="988-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1537969909197" status="failed" stop="1537969909200">
+      <name>test_broken</name>
+      <failure>
+        <message>Exception: oops</message>
+        <stack-trace>def test_broken():
+&gt;       raise Exception('oops')
+E       Exception: oops
+
+allure_pytest.py:28: Exception</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="988-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1537969909201" status="pending" stop="1537969909204">
+      <description>this test is an xfail that will be marked as expected failure</description>
+      <name>test_xfail_expected_failure</name>
+      <failure>
+        <message>this test is expecting failure</message>
+        <stack-trace>@pytest.mark.xfail(condition=lambda: True, reason='this test is expecting failure')
+    def test_xfail_expected_failure():
+        """this test is an xfail that will be marked as expected failure"""
+&gt;       assert False
+E       assert False
+
+allure_pytest.py:33: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="988-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1537969909205" status="passed" stop="1537969909206">
+      <description>this test is an xfail that will be marked as unexpected success</description>
+      <name>test_xfail_unexpected_pass</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="988-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,100 @@
+{
+  "uid" : "af460369170f56bb",
+  "name" : "DemoAllure_fix.test_site_loads",
+  "fullName" : "allure_ex_0.DemoAllure_fix.test_site_loads",
+  "historyId" : "78a29563e65ae269aba0277a3cdad05",
+  "time" : {
+    "start" : 1537967743656,
+    "stop" : 1537967753921,
+    "duration" : 10265
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Launch site",
+      "time" : {
+        "start" : 1537967746700,
+        "stop" : 1537967753888,
+        "duration" : 7188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verify Title loaded",
+      "time" : {
+        "start" : 1537967753888,
+        "stop" : 1537967753921,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Dudnikov"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4964-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "allure_ex_0"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_ex_0"
+  }, {
+    "name" : "testMethod",
+    "value" : "DemoAllure_fix.test_site_loads"
+  }, {
+    "name" : "package",
+    "value" : "allure_ex_0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af460369170f56bb.json",
+  "parameterValues" : [ ]
+}

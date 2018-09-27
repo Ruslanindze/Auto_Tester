@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"failed","allure_pytest.test_failure","31","this test fails"
+"passed","allure_pytest.test_xfail_unexpected_pass","1","this test is an xfail that will be marked as unexpected success"
+"skipped","allure_pytest.test_xfail_expected_failure","3","this test is an xfail that will be marked as expected failure"
+"failed","allure_pytest.test_broken","3",""
+"skipped","allure_pytest.test_skip","2","this test is skipped"
+"passed","allure_pytest.test_success","5","this test succeeds"

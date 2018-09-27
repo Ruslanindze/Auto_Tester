@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"passed","allure_ex_0.DemoAllure.test_site_loads","12879",""
+"passed","allure_ex_0.DemoAllure_fix.test_site_loads","10265",""

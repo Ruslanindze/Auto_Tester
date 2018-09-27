@@ -1,0 +1,62 @@
+{
+  "uid" : "503e71f1f0e031d4",
+  "name" : "test_skip",
+  "fullName" : "allure_pytest.test_skip",
+  "historyId" : "c61a5ed45172a35d035597206c9e5a5e",
+  "time" : {
+    "start" : 1537969909195,
+    "stop" : 1537969909197,
+    "duration" : 2
+  },
+  "description" : "this test is skipped",
+  "descriptionHtml" : "<p>this test is skipped</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: for a reason!",
+  "statusTrace" : "",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Dudnikov"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "988-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_skip"
+  }, {
+    "name" : "package",
+    "value" : "allure_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "503e71f1f0e031d4.json",
+  "parameterValues" : [ ]
+}

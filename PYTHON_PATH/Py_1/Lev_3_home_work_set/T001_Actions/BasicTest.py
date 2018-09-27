@@ -14,7 +14,6 @@ import Str_Const as SC
 
 #--------------------------------
 class Basic_UniT(unittest.TestCase):
-    """–одительский класс дл€ тестов и дочерний дл€ unittest"""
     Browser =  None
     Driver = None
     #---------------
