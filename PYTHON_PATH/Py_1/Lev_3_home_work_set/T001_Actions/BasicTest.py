@@ -1,15 +1,19 @@
 #  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
-import sys
-sys.path.append('')
+# Скрипт с базовым классом, наследуясь от которого можно писать сразу тесты
+#--------------------------------
+import sys, os
+PATH_IMPORT = os.getcwd()[:os.getcwd().rfind('\\')]
+if PATH_IMPORT not in sys.path:
+    sys.path.append(PATH_IMPORT)
 #--------------------------------
 import time
 import unittest
 
-import DriverManager as DM
-import PageObjC as Obj
-import Str_Const as SC
+import T001_Actions.DriverManager as DM
+import T001_Actions.PageObjC as Obj
+import T001_Actions.Str_Const as SC
 #--------------------------------
 
 #--------------------------------

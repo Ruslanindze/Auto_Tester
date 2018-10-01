@@ -1,6 +1,11 @@
 #  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------
+import sys, os
+PATH_IMPORT = os.getcwd()[:os.getcwd().rfind('\\')]
+if PATH_IMPORT not in sys.path:
+    sys.path.append(PATH_IMPORT)
+#--------------------
 from selene.api import *
 from T002_Selene.Str_Const import *
 #--------------------

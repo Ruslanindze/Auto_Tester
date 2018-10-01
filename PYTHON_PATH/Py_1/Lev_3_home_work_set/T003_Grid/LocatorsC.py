@@ -4,7 +4,6 @@
 from selenium.webdriver.common.by import By
 #--------------------------------
 class Home:
-    """Çäåñü îïèñàíû ëîêàòîğû äëÿ äîìàùíåé ñòğàíèöû"""
     ContactUs = (By.XPATH, '//*[@id="contact-link"]/a')
     SignIn    = (By.CSS_SELECTOR, 'nav > div.header_user_info > a')
     GetSav    = (By.CSS_SELECTOR, 'div.banner > div > div > a > img')

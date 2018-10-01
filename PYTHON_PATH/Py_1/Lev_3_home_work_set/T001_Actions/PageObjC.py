@@ -1,17 +1,21 @@
 #  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #------------------------------------
-import sys
-sys.path.append('')
+# Тут подтягиваются веб-эоементы по вызову
+#------------------------------------
+import sys, os
+PATH_IMPORT = os.getcwd()[:os.getcwd().rfind('\\')]
+if PATH_IMPORT not in sys.path:
+    sys.path.append(PATH_IMPORT)
 #--------------------------------
 import time
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-import DriverManager as DM
-import Str_Const as SC
-import LocatorsC as Loc
+import T001_Actions.DriverManager as DM
+import T001_Actions.Str_Const as SC
+import T001_Actions.LocatorsC as Loc
 #------------------------------------
 
 # ----------------------------------------------------
@@ -65,6 +69,6 @@ class Home(object):
 
 # ----------------------------------------------------
 
-# ������ ��� �������
+# для отладки
 if '__main__' == __name__:
     pass

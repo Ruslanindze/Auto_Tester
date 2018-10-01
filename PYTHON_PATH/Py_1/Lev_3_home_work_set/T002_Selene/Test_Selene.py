@@ -1,6 +1,11 @@
 #  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
+import sys, os
+PATH_IMPORT = os.getcwd()[:os.getcwd().rfind('\\')]
+if PATH_IMPORT not in sys.path:
+    sys.path.append(PATH_IMPORT)
+#--------------------------------
 from selene.api import *
 from T002_Selene.PageObj import *
 from T002_Selene.Str_Const import *
@@ -8,7 +13,7 @@ import T002_Selene.DriverManager as DM
 import time
 #--------------------
 def test_A(new_driver):
-    """Структурный вид проверки Матрицы идей с помощью Selene"""
+    """РЎС‚СЂСѓРєС‚СѓСЂРЅРѕРµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Selene"""
     browser.set_driver(new_driver)
 
     Obj_Test = Page_Objects()
@@ -28,15 +33,15 @@ def test_A(new_driver):
     browser.quit()
 #--------------------
 def test_B(new_driver):
-    """Попытка реализации теста в виде цепочки с помощью Selene"""
+    """РСЃРїРѕР·СЊР·РѕРІР°РЅРёСЏ С†РµРїРѕС‡РєРё РІ С‚РµСЃС‚Р°С… СЃ Selene"""
     browser.set_driver(new_driver)
 
     (Page_Objects()
-     .open() # открыли домашнюю страницу
-     .go_inventory() # перешли в пункт Ивентарь
-     .go_matrix_ideas() # выбрали раздел Матрица Идей
-     .input_ideas(IDEA) # ввели идею
-     .should(have.value(IDEA)) # проверяем, что проверяемый элемент имеет нужное знач.
+     .open()
+     .go_inventory()
+     .go_matrix_ideas()
+     .input_ideas(IDEA)
+     .should(have.value(IDEA))
     )
 
     time.sleep(5)

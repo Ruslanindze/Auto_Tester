@@ -1,6 +1,8 @@
 #  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------
+# РџСЂРѕСЃС‚С‹Рµ РїСЂРёРјРµСЂС‹ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Selene
+#--------------------
 PATH_SITE = r'https://www.artlebedev.ru/'
 PATH_DRIVER =  r'd:\WORK_MC_21\Tester\Auto_Tester\chromedriver.exe'
 #--------------------
@@ -11,7 +13,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selene.support.jquery_style_selectors import s
 #--------------------
 def lev_0():
-    # browser.open_url(PATH_SITE) # не запускает почему-то
+    # browser.open_url(PATH_SITE)
     browser.set_driver(webdriver.Chrome(PATH_DRIVER))
 
     browser.open_url(PATH_SITE)
@@ -26,7 +28,7 @@ def lev_0():
     browser.quit()
 #-------------------------------------------
 def lev_1():
-    # config.browser_name = "chrome" # один из способов запуска драйвера
+    # config.browser_name = "chrome"
     driver = webdriver.Chrome(ChromeDriverManager().install())
     browser.set_driver(driver)
     browser.open_url('http://www.blazedemo.com/purchase.php')

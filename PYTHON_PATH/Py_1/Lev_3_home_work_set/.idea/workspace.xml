@@ -1,159 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0b0890d-247a-4bac-8f6f-e545447c3ad3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/attachments/c3b34398fe07ccd4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Res_Test_Allure/9bf826c8-6db1-41aa-95f3-4629cb351903-attachment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Test_Allure.Test_Logger.test_B_TShirts.flv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Test_Logger.test_B_TShirts_on_exception.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/data/categories.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/.pytest_cache/v/cache/lastfailed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/BasicTest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/DriverManager.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/LocatorsC.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/LoggerC.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/LoggerC.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/PageObjC.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/attachments/63da1772a796dd6c.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/attachments/647464e4fb985690.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/behaviors.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/behaviors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/categories.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/categories.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/packages.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/suites.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/suites.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/test-cases/5b986a275ce28710.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/test-cases/f66b02e1403996fa.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/data/timeline.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/export/influxDbData.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/export/mail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/export/prometheusData.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/history/categories-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/history/duration-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/history/history-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/history/history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/history/retry-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/plugins/behaviors/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/plugins/packages/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/plugins/screen-diff/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/plugins/screen-diff/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/behaviors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/categories-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/categories.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/duration-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/duration.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/environment.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/executors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/history-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/launch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/retry-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/severity.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/status-chart.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/suites.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Rep_Test_Allure/widgets/summary.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Res_Test_Allure/7d37dd1e-f808-488b-87b9-fba7e1dca554-attachment.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Res_Test_Allure/8999b007-1e32-4707-b1c3-3c3e54a8119d-attachment.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Res_Test_Allure/e2177a6f-cb43-462b-9dc4-be34ead779d7-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Str_Const.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/Test_Allure.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/.pytest_cache/v/cache/lastfailed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/allure_pytest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/allure_unit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/behaviors.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/behaviors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/categories.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/categories.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/packages.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/suites.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/suites.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/test-cases/1e279e180685e8a1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/test-cases/503e71f1f0e031d4.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/test-cases/994046f83e5250c7.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/test-cases/a3c7a43633b03f86.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/test-cases/f058de7b26715957.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/test-cases/f23dfe9af76c2138.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/data/timeline.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/export/influxDbData.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/export/mail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/export/prometheusData.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/history/categories-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/history/duration-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/history/history-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/history/history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/history/retry-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/plugins/behaviors/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/plugins/packages/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/plugins/screen-diff/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/plugins/screen-diff/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/behaviors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/categories-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/categories.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/duration-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/duration.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/environment.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/executors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/history-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/launch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/retry-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/severity.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/status-chart.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/suites.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_pytest/widgets/summary.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/data/behaviors.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/data/behaviors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/data/categories.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/data/packages.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/data/suites.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/data/suites.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/data/test-cases/2dfcf45c9ba1e09b.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/data/test-cases/af460369170f56bb.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/data/timeline.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/export/influxDbData.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/export/mail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/export/prometheusData.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/history/categories-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/history/duration-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/history/history-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/history/history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/history/retry-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/plugins/behaviors/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/plugins/packages/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/plugins/screen-diff/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/plugins/screen-diff/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/behaviors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/categories-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/categories.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/duration-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/duration.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/environment.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/executors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/history-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/launch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/retry-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/severity.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/status-chart.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/suites.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/rep_allure_unit/widgets/summary.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/res_allure_pytest/160317af-a6ed-4ead-b210-f76973cca4f1-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/T006_Allure/examples/res_allure_unit/60b6dba8-7fcf-44db-87fa-54c0cbf348e7-testsuite.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T005_LogMaster__main__.Test_Logger.test_A_Women.flv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/T005_LogMaster__main__.Test_Logger.test_B_TShirts.flv" afterPath="" />
+    <list default="true" id="a0b0890d-247a-4bac-8f6f-e545447c3ad3" name="Default" comment="T006 -&gt; Добавил задание с Allure">
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../../~$Д.3.docx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/Test_Logger.test_B_TShirts_on_exception.png" afterPath="$PROJECT_DIR$/T005_LogMaster/Test_Logger.test_B_TShirts_on_exception.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/__main__.Test_Logger.test_B_TShirts.flv" afterPath="$PROJECT_DIR$/T005_LogMaster/__main__.Test_Logger.test_B_TShirts.flv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Lev_3_home_work_set.iml" afterPath="$PROJECT_DIR$/.idea/Lev_3_home_work_set.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T001_Actions/BasicTest.py" afterPath="$PROJECT_DIR$/T001_Actions/BasicTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T001_Actions/DriverManager.py" afterPath="$PROJECT_DIR$/T001_Actions/DriverManager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T001_Actions/LocatorsC.py" afterPath="$PROJECT_DIR$/T001_Actions/LocatorsC.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T001_Actions/PageObjC.py" afterPath="$PROJECT_DIR$/T001_Actions/PageObjC.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T001_Actions/Test_Actions.py" afterPath="$PROJECT_DIR$/T001_Actions/Test_Actions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T002_Selene/DriverManager.py" afterPath="$PROJECT_DIR$/T002_Selene/DriverManager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T002_Selene/PageObj.py" afterPath="$PROJECT_DIR$/T002_Selene/PageObj.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T002_Selene/Str_Const.py" afterPath="$PROJECT_DIR$/T002_Selene/Str_Const.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T002_Selene/Test_Selene.py" afterPath="$PROJECT_DIR$/T002_Selene/Test_Selene.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T002_Selene/example_selene.py" afterPath="$PROJECT_DIR$/T002_Selene/example_selene.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/A_test.py" afterPath="$PROJECT_DIR$/T003_Grid/A_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/BasicTest.py" afterPath="$PROJECT_DIR$/T003_Grid/BasicTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/DriverManager.py" afterPath="$PROJECT_DIR$/T003_Grid/DriverManager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/LocatorsC.py" afterPath="$PROJECT_DIR$/T003_Grid/LocatorsC.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/PageObjC.py" afterPath="$PROJECT_DIR$/T003_Grid/PageObjC.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py" afterPath="$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/LoggerC.log" afterPath="$PROJECT_DIR$/T005_LogMaster/LoggerC.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/Test_Logger.har" afterPath="$PROJECT_DIR$/T005_LogMaster/Test_Logger.har" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/bmp.log" afterPath="$PROJECT_DIR$/T005_LogMaster/bmp.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/server.log" afterPath="$PROJECT_DIR$/T005_LogMaster/server.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,80 +41,7 @@
     <favorites_list name="Lev_3_home_work_set" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Test_Logger.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/T005_LogMaster/Test_Logger.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="693">
-                  <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Test_Allure.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/T006_Allure/Test_Allure.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="147">
-                  <caret line="7" column="71" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="71" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LoggerC.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/T006_Allure/LoggerC.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="798">
-                  <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#427#480#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="BasicTest.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/T006_Allure/BasicTest.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="605">
-                  <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#168#201#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Str_Const.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/T006_Allure/Str_Const.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DriverManager.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/T006_Allure/DriverManager.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -252,7 +52,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>SIG</find>
       <find>SIGK</find>
       <find>bmp.lo</find>
       <find>logging</find>
@@ -282,6 +81,7 @@
       <find>SC</find>
       <find>pn</find>
       <find>get_screenshot_as_png</find>
+      <find>xpath&quot;,&quot;selector&quot;:&quot;//menu[@class=&quot;clearfix&quot;]/li[2]</find>
     </findStrings>
     <replaceStrings>
       <replace>rgba_</replace>
@@ -301,21 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../../../../../Development/Language_PY/teaching/testing_py/types_of_loggers/selenium_log.py" />
-        <option value="$PROJECT_DIR$/../../../../../Development/Language_PY/teaching/testing_py/types_of_loggers/logging_dec_unit.py" />
-        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/logging.py" />
-        <option value="$PROJECT_DIR$/T005_LogMaster/logging.log" />
-        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/logging.log" />
-        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/selenium.log" />
-        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/OpenAg_and_TrueLog.py" />
-        <option value="$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py" />
-        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_pprint.json" />
-        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/castro_videoR.py" />
-        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/castro/__init__.py" />
-        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/selenium_video_ex.py" />
-        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/video_recorder_py.py" />
-        <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/video_recorder.py" />
-        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/test_recorder/os_utils.py" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/test_recorder/video_recorder.py" />
         <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/bmp.log" />
         <option value="$PROJECT_DIR$/T005_LogMaster/examples_logging/logging_example.py" />
@@ -345,21 +130,36 @@
         <option value="$PROJECT_DIR$/T006_Allure/examples/allure_ex_0.py" />
         <option value="$PROJECT_DIR$/T006_Allure/examples/allure_unit.py" />
         <option value="$PROJECT_DIR$/T006_Allure/examples/allure_pytest.py" />
-        <option value="$PROJECT_DIR$/T001_Actions/BasicTest.py" />
         <option value="$PROJECT_DIR$/T006_Allure/Str_Const.py" />
         <option value="$PROJECT_DIR$/T006_Allure/DriverManager.py" />
         <option value="$PROJECT_DIR$/T006_Allure/PageObjC.py" />
         <option value="$PROJECT_DIR$/T006_Allure/LoggerC.py" />
         <option value="$PROJECT_DIR$/T006_Allure/Test_Allure.py" />
         <option value="$PROJECT_DIR$/T006_Allure/BasicTest.py" />
+        <option value="$PROJECT_DIR$/T001_Actions/BasicTest.py" />
+        <option value="$PROJECT_DIR$/T001_Actions/PageObjC.py" />
+        <option value="$PROJECT_DIR$/T001_Actions/LocatorsC.py" />
+        <option value="$PROJECT_DIR$/T001_Actions/Test_Actions.py" />
+        <option value="$PROJECT_DIR$/T002_Selene/example_selene.py" />
+        <option value="$PROJECT_DIR$/T002_Selene/PageObj.py" />
+        <option value="$PROJECT_DIR$/T002_Selene/DriverManager.py" />
+        <option value="$PROJECT_DIR$/T002_Selene/Str_Const.py" />
+        <option value="$PROJECT_DIR$/T002_Selene/Test_Selene.py" />
+        <option value="$PROJECT_DIR$/T001_Actions/DriverManager.py" />
+        <option value="$PROJECT_DIR$/T003_Grid/BasicTest.py" />
+        <option value="$PROJECT_DIR$/T003_Grid/A_test.py" />
+        <option value="$PROJECT_DIR$/T003_Grid/DriverManager.py" />
+        <option value="$PROJECT_DIR$/T003_Grid/LocatorsC.py" />
+        <option value="$PROJECT_DIR$/T003_Grid/PageObjC.py" />
+        <option value="$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="960" />
-    <option name="height" value="1080" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -377,8 +177,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -394,7 +194,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Development/Language_PY/teaching" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -420,33 +220,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.allure_commons">
-    <configuration name="Unittests for allure_ex_0.DemoAllure_fix" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.DriverManager">
+    <configuration name="DriverManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T002_Selene" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lev_3_home_work_set" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T002_Selene/DriverManager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Test_Actions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T001_Actions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lev_3_home_work_set" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T001_Actions/Test_Actions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Unittests for BasicTest.Basic_UniT" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T006_Allure/examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T001_Actions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lev_3_home_work_set" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;allure_ex_0.DemoAllure_fix&quot;" />
+      <option name="_new_target" value="&quot;BasicTest.Basic_UniT&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in allure_ex_0.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in BasicTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T006_Allure/examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T001_Actions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lev_3_home_work_set" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/T006_Allure/examples/allure_ex_0.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/T001_Actions/BasicTest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -466,6 +300,21 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="teaching" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -494,6 +343,35 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lev_2_BDD_and_Gherkin" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="teaching" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="teaching" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -539,23 +417,6 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="allure" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T006_Allure" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lev_3_home_work_set" />
-      <option name="SCRIPT_NAME" value="D:\WORK_MC_21\Tester\Auto_Tester\PYTHON_PATH\Py_1\Lev_3_home_work_set\T006_Allure\allure_ex_0.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="allure_commons" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -569,23 +430,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Lev_3_home_work_set" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T006_Allure/examples/allure_commons.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="allure_commons_ex" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/T006_Allure" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lev_3_home_work_set" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/T006_Allure/allure_commons_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -608,19 +452,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.allure" />
-      <item index="1" class="java.lang.String" itemvalue="Python.allure_commons_ex" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for allure_ex_0.DemoAllure_fix" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in allure_ex_0.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python.allure_commons" />
+      <item index="0" class="java.lang.String" itemvalue="Python.allure_commons" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Test_Actions" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in BasicTest.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for BasicTest.Basic_UniT" />
+      <item index="4" class="java.lang.String" itemvalue="Python.DriverManager" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.allure_commons" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in allure_ex_0.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for allure_ex_0.DemoAllure_fix" />
-        <item index="3" class="java.lang.String" itemvalue="Python.allure_commons_ex" />
-        <item index="4" class="java.lang.String" itemvalue="Python.allure" />
+        <item index="0" class="java.lang.String" itemvalue="Python.DriverManager" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for BasicTest.Basic_UniT" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in BasicTest.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Test_Actions" />
+        <item index="4" class="java.lang.String" itemvalue="Python.allure_commons" />
       </list>
     </recent_temporary>
   </component>
@@ -677,15 +521,22 @@
       <option name="project" value="LOCAL" />
       <updated>1537548779890</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="T005 -&gt; добавил LoggerC (отлажен класс LogListener)">
+      <created>1538045877122</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1538045877122</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_allure_ex_0_DemoAllure_fix - 2018.09.26 at 15h 42m 09s.xml">
-      <configuration name="Unittests for allure_ex_0.DemoAllure_fix" configurationId="tests" />
+    <history-entry file="Unittests_for_BasicTest_Basic_UniT - 2018.10.01 at 11h 17m 27s.xml">
+      <configuration name="Unittests for BasicTest.Basic_UniT" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Test_Logger_py - 2018.09.24 at 15h 15m 21s.xml">
-      <configuration name="Unittests in Test_Logger.py" configurationId="tests" />
+    <history-entry file="Unittests_in_BasicTest_py - 2018.10.01 at 11h 09m 46s.xml">
+      <configuration name="Unittests in BasicTest.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_Test_Logger_py - 2018.09.25 at 14h 30m 45s.xml">
       <configuration name="Unittests in Test_Logger.py" configurationId="tests" />
@@ -722,18 +573,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1130064" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116204694" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35684648" sideWeight="0.50586355" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.4946695" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.4946695" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35684648" sideWeight="0.49413645" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35684648" sideWeight="0.49413645" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15191898" sideWeight="0.5064516" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -816,162 +667,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/ffmpeg/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/video_recorder_ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/help.txt" />
-    <entry file="file://$PROJECT_DIR$/T001_Actions/Test_Actions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/selenium/webdriver/support/abstract_event_listener.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-649">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/Test_Actions.test_B_TShirts_on_exception.png" />
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/Listener_Log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="981">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="94" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/unittest/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="1599" column="0" lean-forward="true" selection-start-line="1599" selection-start-column="0" selection-end-line="1599" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/Test_Actions.test_A_Women_on_exception.png" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/PageObjC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/browsermobproxy/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="105" column="32" lean-forward="false" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/selenium/webdriver/firefox/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="216" column="0" lean-forward="false" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/LocatorsC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="58" lean-forward="true" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/Test_Logger.test_A_Women_on_exception.png" />
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/Test_Logger.test_B_TShirts_on_exception.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/Test_Logger.har">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2308">
-          <caret line="8558" column="0" lean-forward="true" selection-start-line="8558" selection-start-column="0" selection-end-line="8558" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/server.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/LoggerC.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="42">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/bmp.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/DriverManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/selenium/webdriver/support/event_firing_webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="93" column="13" lean-forward="false" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/LoggerC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="119" column="28" lean-forward="false" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T005_LogMaster/Str_Const.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/T006_Allure/reportsx/8820dfac-d72a-493e-9d28-30db43a4b72b-result.json" />
     <entry file="file://$PROJECT_DIR$/T006_Allure/reportsx/1c5f6eb3-0e8b-4ac2-99dd-e061bd6b7b6d-result.json" />
     <entry file="file://$PROJECT_DIR$/T006_Allure/allure_ex_0.py" />
@@ -995,15 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T001_Actions/BasicTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,11 +712,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/T006_Allure/DriverManager.py">
+    <entry file="file://$PROJECT_DIR$/T006_Allure/PageObjC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="315">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T006_Allure/Test_Allure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="51" column="57" lean-forward="false" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1039,51 +730,258 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T006_Allure/DriverManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T006_Allure/LoggerC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T006_Allure/BasicTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="60" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/run_node.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/run_hub.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T005_LogMaster/Test_Logger.har">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/T006_Allure/PageObjC.py">
+    <entry file="file://$PROJECT_DIR$/T005_LogMaster/LoggerC.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <caret line="74" column="13" lean-forward="false" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+          <folding>
+            <element signature="e#864#3224#0" expanded="false" />
+            <element signature="e#4775#5932#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T004_Xpath_CSS/LocatorsC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T005_LogMaster/DriverManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T001_Actions/PageObjC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T001_Actions/Str_Const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T001_Actions/LocatorsC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T001_Actions/Test_Actions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T002_Selene/example_selene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <element signature="e#349#360#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T002_Selene/DriverManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/selene-1.0.0a13-py3.5.egg/selene/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="300" column="8" lean-forward="false" selection-start-line="300" selection-start-column="8" selection-end-line="300" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T002_Selene/Str_Const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T002_Selene/Test_Selene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="55" column="53" lean-forward="true" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T002_Selene/PageObj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T001_Actions/DriverManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T001_Actions/BasicTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/BasicTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/DriverManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/LocatorsC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/Str_Const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/B_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="63" selection-start-column="15" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/PageObjC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T003_Grid/A_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T005_LogMaster/examples_logging/browsermobproxy_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/T005_LogMaster/Test_Logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="1113">
+          <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T006_Allure/LoggerC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding>
-            <element signature="e#427#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T006_Allure/Test_Allure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="71" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/T006_Allure/BasicTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="33" />
-          <folding>
-            <element signature="e#168#201#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

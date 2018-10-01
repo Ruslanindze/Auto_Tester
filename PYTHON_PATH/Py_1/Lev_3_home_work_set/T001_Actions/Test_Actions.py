@@ -1,8 +1,10 @@
 #  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
-import sys,os
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+import sys, os
+PATH_IMPORT = os.getcwd()[:os.getcwd().rfind('\\')]
+if PATH_IMPORT not in sys.path:
+    sys.path.append(PATH_IMPORT)
 #--------------------------------
 import unittest, time, os
 from selenium import webdriver
@@ -12,11 +14,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from pyunitreport import HTMLTestRunner
 
-import BasicTest as BT
-import PageObjC as Obj
-import LocatorsC as Loc
-import DriverManager as DM
-import Str_Const as SC
+import T001_Actions.BasicTest as BT
+import T001_Actions.PageObjC as Obj
+import T001_Actions.LocatorsC as Loc
+import T001_Actions.DriverManager as DM
+import T001_Actions.Str_Const as SC
 #--------------------------------
 
 #--------------------------------
@@ -24,27 +26,27 @@ class Test_Actions(BT.Basic_UniT):
     Browser = None
     #-------------------
     def test_A_Women(self):
-        #--------- найдем нужный элемент
+        """РџСЂРѕРІРµСЂРєР° РёР·РјРµРЅРµРЅРёСЏ С†РІРµС‚Р° РїСЂРё РЅР°РІРµРґРµРЅРёРё РјС‹С€РєРё РЅР° WOMEN"""
+
         check_elem = self.HomeP.Women
         size_old = check_elem.size
         rgba_old = check_elem.value_of_css_property('background-color')
-        # --------- навелём на элемент мышкой
+
         hover = ActionChains(self.Driver).move_to_element(check_elem)
         hover.perform()
         size_cur = check_elem.size
         rgba_cur = check_elem.value_of_css_property('background-color')
-        #---------- зона aseert's
-        # проверяем одинаковы ли размеры, путём выкидвания одинаковых значений set
+
         self.assertEqual(len(set(size_old.items()) ^ set(size_cur.items())), 0)
         self.assertEqual('rgba(0, 0, 0, 0)', rgba_old)
         self.assertEqual('rgba(51, 51, 51, 1)', rgba_cur)
 
     def test_B_TShirts(self):
-        #-------- находим нужные элементы
+        """РџСЂРѕРІРµСЂРєР° РёР·РјРµРЅРµРЅРёСЏ С†РІРµС‚Р° РїСЂРё РЅР°РІРµРґРµРЅРёРё РјС‹С€РєРё РЅР° TShirts"""
+
         women = self.HomeP.Women
         t_shirts = self.HomeP.T_shirts
 
-        #-------- проверяем передвижение мышки и смены цвета
         rgba_women_0 = women.value_of_css_property('background-color')
         self.assertEqual('rgba(0, 0, 0, 0)', rgba_women_0)
         rgba_t_shirts_0 = t_shirts.value_of_css_property('background-color')
@@ -57,12 +59,10 @@ class Test_Actions(BT.Basic_UniT):
         rgba_t_shirts_1 = t_shirts.value_of_css_property('background-color')
         self.assertEqual('rgba(51, 51, 51, 1)', rgba_t_shirts_1)
 
-        #------- проверка клика мыши
         t_shirts.click()
         self.assertEqual(self.Driver.current_url , SC.TSHIRTS_PAGE)
 
 #--------------------------------
-
 if __name__ == '__main__':
     output = os.path.join(os.path.abspath(os.path.dirname(__file__)),
                           "{}".format('Reports'))

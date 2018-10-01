@@ -1,12 +1,14 @@
 #  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #----------------------
-import sys,os
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+import sys, os
+PATH_IMPORT = os.getcwd()[:os.getcwd().rfind('\\')]
+if PATH_IMPORT not in sys.path:
+    sys.path.append(PATH_IMPORT)
 #--------------------------------
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-import T003_Grib.Str_Const as SC
+import T003_Grid.Str_Const as SC
 #----------------------
 
 #--------------------------------
@@ -38,6 +40,6 @@ class Driver_Manager(object):
     def driver(self, new_driver):
         self.__driver = new_driver
 # ----------------------------------------------------
-# Запуск для отладки
+
 if '__main__' == __name__:
     pass
