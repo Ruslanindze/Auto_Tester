@@ -3,31 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0b0890d-247a-4bac-8f6f-e545447c3ad3" name="Default" comment="T006 -&gt; Добавил задание с Allure">
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../../~$Д.3.docx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/Test_Logger.test_B_TShirts_on_exception.png" afterPath="$PROJECT_DIR$/T005_LogMaster/Test_Logger.test_B_TShirts_on_exception.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/__main__.Test_Logger.test_B_TShirts.flv" afterPath="$PROJECT_DIR$/T005_LogMaster/__main__.Test_Logger.test_B_TShirts.flv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Lev_3_home_work_set.iml" afterPath="$PROJECT_DIR$/.idea/Lev_3_home_work_set.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T001_Actions/BasicTest.py" afterPath="$PROJECT_DIR$/T001_Actions/BasicTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T001_Actions/DriverManager.py" afterPath="$PROJECT_DIR$/T001_Actions/DriverManager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T001_Actions/LocatorsC.py" afterPath="$PROJECT_DIR$/T001_Actions/LocatorsC.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T001_Actions/PageObjC.py" afterPath="$PROJECT_DIR$/T001_Actions/PageObjC.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T001_Actions/Test_Actions.py" afterPath="$PROJECT_DIR$/T001_Actions/Test_Actions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T002_Selene/DriverManager.py" afterPath="$PROJECT_DIR$/T002_Selene/DriverManager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T002_Selene/PageObj.py" afterPath="$PROJECT_DIR$/T002_Selene/PageObj.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T002_Selene/Str_Const.py" afterPath="$PROJECT_DIR$/T002_Selene/Str_Const.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T002_Selene/Test_Selene.py" afterPath="$PROJECT_DIR$/T002_Selene/Test_Selene.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T002_Selene/example_selene.py" afterPath="$PROJECT_DIR$/T002_Selene/example_selene.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/A_test.py" afterPath="$PROJECT_DIR$/T003_Grid/A_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/BasicTest.py" afterPath="$PROJECT_DIR$/T003_Grid/BasicTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/DriverManager.py" afterPath="$PROJECT_DIR$/T003_Grid/DriverManager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/LocatorsC.py" afterPath="$PROJECT_DIR$/T003_Grid/LocatorsC.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/PageObjC.py" afterPath="$PROJECT_DIR$/T003_Grid/PageObjC.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py" afterPath="$PROJECT_DIR$/T003_Grid/Test_Actions_Grid.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/LoggerC.log" afterPath="$PROJECT_DIR$/T005_LogMaster/LoggerC.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/Test_Logger.har" afterPath="$PROJECT_DIR$/T005_LogMaster/Test_Logger.har" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/bmp.log" afterPath="$PROJECT_DIR$/T005_LogMaster/bmp.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T005_LogMaster/server.log" afterPath="$PROJECT_DIR$/T005_LogMaster/server.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -528,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538045877122</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="T006 -&gt; Добавил задание с Allure">
+      <created>1538386857751</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1538386857751</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -654,7 +637,8 @@
     <MESSAGE value="T005_LogMaster -&gt; Добавил засись траффика *.har и робкие попытки записать видео" />
     <MESSAGE value="T005 -&gt; examples -&gt; Подправил кодировку на utf-8, добавил пример с python + ffmpeg" />
     <MESSAGE value="T005 -&gt; добавил LoggerC (отлажен класс LogListener)" />
-    <option name="LAST_COMMIT_MESSAGE" value="T005 -&gt; добавил LoggerC (отлажен класс LogListener)" />
+    <MESSAGE value="T006 -&gt; Добавил задание с Allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="T006 -&gt; Добавил задание с Allure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
