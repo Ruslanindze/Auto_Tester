@@ -27,5 +27,5 @@ class Basic_UniT(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         time.sleep(3)
-        cls.driver.close()
+        cls.driver.quit()
 #--------------------------------
