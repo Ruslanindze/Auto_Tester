@@ -51,5 +51,4 @@ class Test_TransP(BT):
         self.assertEqual(self.asser_text, self.translate)
 #------------------------------------
 
-if '__main__' == __name__:
-    unittest.main()
+if '__main__' == __name__:    unittest.main()

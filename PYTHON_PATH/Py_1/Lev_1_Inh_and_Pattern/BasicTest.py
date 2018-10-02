@@ -6,7 +6,7 @@ import DriverManager as DM
 import PageObjC as Obj
 #--------------------------------
 class Basic_UniT(unittest.TestCase):
-    """Родительский класс для тестов и дочерний для unittest"""
+    """ђодительский класс для тестов и дочерний для unittest"""
     Browser =  None
     #---------------
     def setUp(cls):
