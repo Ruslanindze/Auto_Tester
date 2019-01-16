@@ -1,7 +1,10 @@
 {
 	"dest": "Japantown",
 	"region": "San Francisco",
-    "CheckInData": "01/15/2019",
+    "CheckInData": "01/16/2019",
     "CheckoutData": "02/02/2019",
-    "hotelNum": "5901"
+    "hotelNum": 2,
+
+    "check_Going_to": "Japantown, San Francisco",
+    "check_hotel": "Kimpton Buchanan Hotel"
 }

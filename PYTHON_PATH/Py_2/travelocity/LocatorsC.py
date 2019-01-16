@@ -16,3 +16,7 @@ class Common:
     Hotels = (By.CSS_SELECTOR, 'a.flex-link')
     Reserve = (By.XPATH, '//*[@id="mock-book-button"]')
     Reserve_recom = (By.XPATH, '(//div[@class="book-button-wrapper "]/button)[1]')
+    # -----------------------
+class Check:
+    Hotel = (By.CLASS_NAME, "section-header-main")
+    Finish = (By.ID, "secondary-content")
