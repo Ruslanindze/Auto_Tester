@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Travelocity.test_step_1",
+    "uid" : "6fbf3acdcae2b199",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1547724207922,
+      "stop" : 1547724218937,
+      "duration" : 11015
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Travelocity.test_step_2",
+    "uid" : "79b59908e89407dd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1547724218939,
+      "stop" : 1547724222539,
+      "duration" : 3600
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Travelocity.test_step_3",
+    "uid" : "127cec855abbbcbf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1547724222543,
+      "stop" : 1547724225755,
+      "duration" : 3212
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Travelocity.test_step_4",
+    "uid" : "e829edb77533ed4f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1547724225763,
+      "stop" : 1547724229786,
+      "duration" : 4023
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Travelocity.test_step_5",
+    "uid" : "adb4fa3ec13ad2b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1547724229790,
+      "stop" : 1547724250779,
+      "duration" : 20989
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

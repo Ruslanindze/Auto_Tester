@@ -1,0 +1,91 @@
+{
+  "uid" : "adb4fa3ec13ad2b",
+  "name" : "Travelocity.test_step_5",
+  "fullName" : "Test_Travelocity.Travelocity.test_step_5",
+  "historyId" : "b4fd4b4fe9f791555b61180a613cc084",
+  "time" : {
+    "start" : 1547724229790,
+    "stop" : 1547724250779,
+    "duration" : 20989
+  },
+  "description" : "Choose and reserved a hotel",
+  "descriptionHtml" : "<p>Choose and reserved a hotel</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Выбираем отель и резервируем его",
+      "time" : {
+        "start" : 1547724229793,
+        "stop" : 1547724247778,
+        "duration" : 17985
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "da0c3f15ecc3d14f",
+      "name" : "Captured log call",
+      "source" : "da0c3f15ecc3d14f.txt",
+      "type" : "text/plain",
+      "size" : 2090
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Dudnikov"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "11168-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Test_Travelocity"
+  }, {
+    "name" : "testClass",
+    "value" : "Test_Travelocity"
+  }, {
+    "name" : "testMethod",
+    "value" : "Travelocity.test_step_5"
+  }, {
+    "name" : "package",
+    "value" : "Test_Travelocity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "adb4fa3ec13ad2b.json",
+  "parameterValues" : [ ]
+}

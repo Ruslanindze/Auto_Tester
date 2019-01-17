@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","Test_Travelocity.Travelocity.test_step_1","11015","Open the home page"
+"passed","Test_Travelocity.Travelocity.test_step_5","20989","Choose and reserved a hotel"
+"passed","Test_Travelocity.Travelocity.test_step_2","3600","Filling the field Going to"
+"passed","Test_Travelocity.Travelocity.test_step_3","3212","Filling of the check-in data"
+"passed","Test_Travelocity.Travelocity.test_step_4","4023","Filling of the check-out data"

@@ -1,5 +1,7 @@
-#  -*- coding: cp1251 -*-                                                                                             #
+#  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
+#--------------------------------
+# Скрипт является менеджером драйверов, возвращает веб-драйвер указанного браузера
 #--------------------------------
 from selenium import webdriver
 import travelocity.Str_Const as SC
@@ -26,6 +28,6 @@ class Driver_Manager(object):
     def driver(self, new_driver):
         self.__driver = new_driver
 # ----------------------------------------------------
-
+# для отладки
 if '__main__' == __name__:
     pass

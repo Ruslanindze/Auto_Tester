@@ -1,4 +1,4 @@
-#  -*- coding: cp1251 -*-                                                                                             #
+#  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
 import sys, os
@@ -16,46 +16,46 @@ from allure.constants import AttachmentType
 #-------------------------------- cmd allure
 #Run: python -m pytest Test_Travelocity.py --alluredir ./res_allure
 #Show_report: allure serve ./res_allure/
-#Gen_report : allure generate -c -o res_allure res_allure
+#Gen_report : allure generate -c -o rep_allure res_allure
 #Gen_report_2 : allure generate -c -o dir_to dir_from (-c -> clean, -o - by default allure-report)
 #-------------------------------- cmd allure
 class Travelocity(BT.Basic_UniT):
-    # считываем данные из json-файла
+    # СЃС‡РёС‚С‹РІР°РµРј РІС…РѕРґРЅС‹Рµ РґР°РЅРЅС‹Рµ РёР· json
     with open(SC.PATH_DATA) as fin:
         data = json.load(fin)
     # -----------------------
-    @pytest.allure.step("Проверка открытия домашней страницы")
+    @pytest.allure.step("РџСЂРѕРІРµСЂРєР° РєРѕСЂСЂРµРєС‚РЅРѕРіРѕ РѕС‚РєСЂС‹С‚РёСЏ СЃР°Р№С‚Р°")
     def test_step_1(self):
         """Open the home page"""
-        TF.open_start_page(self.Driver)
-        self.assertEqual(self.Driver.current_url, SC.HOME_PAGE)
+        TF.open_start_page(self.Driver_Ef)
+        self.assertEqual(self.Driver_Ef.current_url, SC.HOME_PAGE)
     # ------------------------
-    @pytest.allure.step("Заполняем поле Going to")
+    @pytest.allure.step("Р—Р°РїРѕР»РЅСЏРµРј РїРѕР»Рµ Going to")
     def test_step_2(self):
         """Filling the field Going to"""
-        going_to = TF.filling_going_to(self.Driver, self.data["dest"], self.data["region"])
+        going_to = TF.filling_going_to(self.Driver_Ef, self.data["dest"], self.data["region"])
         self.assertEqual(going_to.get_attribute('value'), self.data["check_Going_to"])
     # ------------------------
-    @pytest.allure.step("Заполняем дату Check-In")
+    @pytest.allure.step("Р—Р°РїРѕР»РЅСЏРµРј РїРѕР»Рµ РґР°С‚С‹ Check-In")
     def test_step_3(self):
         """Filling of the check-in data"""
-        check_in = TF.filling_check_in(self.Driver, self.data["CheckInData"])
+        check_in = TF.filling_check_in(self.Driver_Ef, self.data["CheckInData"])
         self.assertEqual(check_in.get_attribute('value'), self.data["CheckInData"])
     # ------------------------
-    @pytest.allure.step("Заполняем дату Check-Out")
+    @pytest.allure.step("Р—Р°РїРѕР»РЅСЏРµРј РїРѕР»Рµ РґР°С‚С‹ Check-Out")
     def test_step_4(self):
         """Filling of the check-out data"""
-        check_out = TF.filling_check_out(self.Driver, self.data["CheckoutData"])
+        check_out = TF.filling_check_out(self.Driver_Ef, self.data["CheckoutData"])
         self.assertEqual(check_out.get_attribute('value'), self.data["CheckoutData"])
     # ------------------------
-    @pytest.allure.step("Выбираем и резервируем отель и делаем проверку")
+    @pytest.allure.step("Р’С‹Р±РёСЂР°РµРј РѕС‚РµР»СЊ Рё СЂРµР·РµСЂРІРёСЂСѓРµРј РµРіРѕ")
     def test_step_5(self):
         """Choose and reserved a hotel"""
-        TF.click_src_butt(self.Driver)
-        TF.choose_hotel(self.Driver, self.data["hotelNum"])
-        TF.reserved(self.Driver)
+        TF.click_src_butt(self.Driver_Ef)
+        TF.choose_hotel(self.Driver_Ef, self.data["hotelNum"])
+        TF.reserved_hotel(self.Driver_Ef)
 
-        self.assertTrue(self.Driver.find_elements(*Loc.Check.Finish))
+        self.assertTrue(self.Driver_Ef.find_element(*Loc.Check.Finish))
 #--------------------------------
 
 

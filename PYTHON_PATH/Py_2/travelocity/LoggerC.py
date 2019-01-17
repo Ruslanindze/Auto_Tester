@@ -37,7 +37,7 @@ class LogListener(AbstractEventListener):
     #---------------------------------------
     @staticmethod
     def get_ef_driver(driver):
-        return  EventFiringWebDriver(driver, LogListener())  # creating driver with _listener
+        return EventFiringWebDriver(driver, LogListener())  # creating driver with _listener
     # ---------------------------------------
     def get_method_name(self, method_name):
         """Логеру необходимо имя метода _listener.get_method_name()"""

@@ -1,0 +1,114 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1547724207922" stop="1547724250779">
+  <name>Test_Travelocity</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1547724207922" status="passed" stop="1547724218937">
+      <description>Open the home page</description>
+      <name>Travelocity.test_step_1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11168-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1547724210298" status="passed" stop="1547724215937">
+          <name>Проверка корректного открытия сайта</name>
+          <title>Проверка корректного открытия сайта</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1547724218939" status="passed" stop="1547724222539">
+      <description>Filling the field Going to</description>
+      <name>Travelocity.test_step_2</name>
+      <attachments>
+        <attachment source="35de8ad7-6630-4b79-be29-8348d1425a5f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11168-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1547724218941" status="passed" stop="1547724219538">
+          <name>Заполняем поле Going to</name>
+          <title>Заполняем поле Going to</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1547724222543" status="passed" stop="1547724225755">
+      <description>Filling of the check-in data</description>
+      <name>Travelocity.test_step_3</name>
+      <attachments>
+        <attachment source="74efdc7a-28e3-4d9b-b181-277d3739fc67-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11168-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1547724222547" status="passed" stop="1547724222755">
+          <name>Заполняем поле даты Check-In</name>
+          <title>Заполняем поле даты Check-In</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1547724225763" status="passed" stop="1547724229786">
+      <description>Filling of the check-out data</description>
+      <name>Travelocity.test_step_4</name>
+      <attachments>
+        <attachment source="e447d817-5fad-444e-aa5b-002a7fc1860a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11168-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1547724225769" status="passed" stop="1547724226785">
+          <name>Заполняем поле даты Check-Out</name>
+          <title>Заполняем поле даты Check-Out</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1547724229790" status="passed" stop="1547724250779">
+      <description>Choose and reserved a hotel</description>
+      <name>Travelocity.test_step_5</name>
+      <attachments>
+        <attachment source="19918582-1f5b-4544-a605-ed043dcc8e3c-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11168-MainThread"/>
+        <label name="host" value="Dudnikov"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1547724229793" status="passed" stop="1547724247778">
+          <name>Выбираем отель и резервируем его</name>
+          <title>Выбираем отель и резервируем его</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

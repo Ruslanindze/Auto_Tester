@@ -1,4 +1,4 @@
-#  -*- coding: cp1251 -*-                                                                                             #
+#  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
 from selenium.webdriver.common.by import By
@@ -14,8 +14,8 @@ class Common:
     Search = (By.XPATH, '//div[8]/label/button')
     # -----------------------
     Hotels = (By.CSS_SELECTOR, 'a.flex-link')
-    Reserve = (By.XPATH, '//*[@id="mock-book-button"]')
-    Reserve_recom = (By.XPATH, '(//div[@class="book-button-wrapper "]/button)[1]')
+    Reserve = (By.ID, 'mock-book-button')
+    Reserve_recom = (By.XPATH, '//*[@id="rooms-and-rates"]/div/article/table/tbody[1]/tr/td[3]/div/form/div[1]/button')
     # -----------------------
 class Check:
     Hotel = (By.CLASS_NAME, "section-header-main")

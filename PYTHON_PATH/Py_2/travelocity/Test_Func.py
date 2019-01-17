@@ -1,7 +1,7 @@
-#  -*- coding: cp1251 -*-                                                                                             #
+#  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
-# Скрипт реализует функции, для создания теста
+# Р¤СѓРЅРєС†РёРё, СЂРµР°Р»РёР·СѓСЋС‰РёРµ С€Р°РіРё С‚РµСЃС‚Р° travelocity
 #--------------------------------
 import travelocity.Str_Const as SC
 import travelocity.LocatorsC as Loc
@@ -52,12 +52,13 @@ def choose_hotel(driver, hotelNum):
     need_hotel = hotels[hotelNum]
     need_hotel.click()
 #--------------------------------
-def reserved(driver):
+def reserved_hotel(driver):
     driver.switch_to.window(driver.window_handles[1])
 
-    WebDriverWait(driver, 3).\
+    WebDriverWait(driver, 10).\
         until(EC.element_to_be_clickable(Loc.Common.Reserve)).click()
 
-    WebDriverWait(driver, 3).\
-        until(EC.element_to_be_clickable(Loc.Common.Reserve_recom)).click()
+    WebDriverWait(driver, 10).\
+        until(EC.element_to_be_clickable(Loc.Common.Reserve_recom)).\
+            send_keys(Keys.ENTER)
 #--------------------------------

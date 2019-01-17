@@ -1,0 +1,85 @@
+{
+  "uid" : "6fbf3acdcae2b199",
+  "name" : "Travelocity.test_step_1",
+  "fullName" : "Test_Travelocity.Travelocity.test_step_1",
+  "historyId" : "fa6723a64f1918f5ce93420d7e52a2a6",
+  "time" : {
+    "start" : 1547724207922,
+    "stop" : 1547724218937,
+    "duration" : 11015
+  },
+  "description" : "Open the home page",
+  "descriptionHtml" : "<p>Open the home page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Проверка корректного открытия сайта",
+      "time" : {
+        "start" : 1547724210298,
+        "stop" : 1547724215937,
+        "duration" : 5639
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Dudnikov"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "11168-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Test_Travelocity"
+  }, {
+    "name" : "testClass",
+    "value" : "Test_Travelocity"
+  }, {
+    "name" : "testMethod",
+    "value" : "Travelocity.test_step_1"
+  }, {
+    "name" : "package",
+    "value" : "Test_Travelocity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6fbf3acdcae2b199.json",
+  "parameterValues" : [ ]
+}

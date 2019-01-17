@@ -1,7 +1,7 @@
-#  -*- coding: cp1251 -*-                                                                                             #
+#  -*- coding: utf-8 -*-                                                                                             #
 # Python 3.x.x
 #--------------------------------
-# Скрипт с базовым классом, наследуясь от которого можно писать сразу тесты
+# Р РµР°Р»РёР·РѕРІР°РЅ РєР»Р°СЃСЃ-СЂРѕРґРёС‚РµР»СЊ, РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РЅР°СЃР»РµРґРѕРІР°С‚СЊ Рё РїРёСЃР°С‚СЊ С‚РµСЃС‚С‹
 #--------------------------------
 import sys, os
 PATH_IMPORT = os.getcwd()[:os.getcwd().rfind('\\')]
@@ -20,35 +20,39 @@ from allure.constants import AttachmentType
 class Basic_UniT(unittest.TestCase):
     Browser =  None
     Driver = None
+    Driver_Ef = None
     # ---------------------------
     @classmethod
     def setUpClass(cls):
+        # СЃРѕР·РґР°РЅРёРµ РІРµР±-РґСЂР°Р№РІРµСЂР°
         cls.Driver = DM.Driver_Manager(cls.Browser).driver
-        cls.Driver = Log.LogListener.get_ef_driver(cls.Driver)
-    # # ---------------------------
-    # def setUp(self):
-    #     self.Driver._listener.get_method_name(self.id())
-    # # ---------------------------
-    # def run(self, result=None):
-    #     self.currentResult = result  # remember result for use in tearDown
-    #     unittest.TestCase.run(self, result)  # call superclass run method
-    # # ---------------------------
-    # def tearDown(self):
-    #     # -------------- для логирования упавших тестов
-    #     time.sleep(2)
-    #     self.find_err = False
-    #     for method, error in self._outcome.errors:
-    #         if error:
-    #             self.find_err = True
-    #             self.Driver._listener.on_exception(error, self.Driver)
-    #
-    #     time.sleep(1)
-    #     if self.find_err:
-    #         allure.attach('screenshot', \
-    #                       self.Driver.get_screenshot_as_png(),
-    #                       type=AttachmentType.PNG)
-    #     # -------------- для логирования упавших тестов
-    # # ---------------------------
+        # СЃРѕР·РґР°РЅРёРµ РґСЂР°Р№РІРµСЂР° СЃ РїСЂРѕСЃР»СѓС€РєРѕР№ СЃРѕР±С‹С‚РёР№ (РґР»СЏ РёС… РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёР№)
+        cls.Driver_Ef = Log.LogListener.get_ef_driver(cls.Driver)
+    # ---------------------------
+    def setUp(self):
+        self.Driver_Ef._listener.get_method_name(self.id())
+    # ---------------------------
+    def run(self, result=None):
+        # Р”Р»СЏ РјРѕРЅРёС‚РѕСЂРёРЅРіР° РїСЂРѕРіРѕРЅР° (СЃРєРѕР»СЊРєРѕ РћРљ, РљРћ Рё С‚.Рґ)
+        self.currentResult = result  # remember result for use in tearDown
+        unittest.TestCase.run(self, result)  # call superclass run method
+    # ---------------------------
+    def tearDown(self):
+        # -------------- Р·РѕРЅР° Р»РѕРІР»Рё РѕС€РёР±РѕРє
+        time.sleep(2)
+        self.find_err = False
+        for method, error in self._outcome.errors:
+            if error:
+                self.find_err = True
+                self.Driver_Ef._listener.on_exception(error, self.Driver)
+
+        time.sleep(1)
+        if self.find_err:
+            allure.attach('screenshot', \
+                          self.Driver_Ef.get_screenshot_as_png(),
+                          type=AttachmentType.PNG)
+            # -------------- Р·РѕРЅР° Р»РѕРІР»Рё РѕС€РёР±РѕРє
+    # ---------------------------
     @classmethod
     def tearDownClass(cls):
         time.sleep(3)

@@ -1,0 +1,91 @@
+{
+  "uid" : "79b59908e89407dd",
+  "name" : "Travelocity.test_step_2",
+  "fullName" : "Test_Travelocity.Travelocity.test_step_2",
+  "historyId" : "458d1e737789ffd169223d23d4fc4ce3",
+  "time" : {
+    "start" : 1547724218939,
+    "stop" : 1547724222539,
+    "duration" : 3600
+  },
+  "description" : "Filling the field Going to",
+  "descriptionHtml" : "<p>Filling the field Going to</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Заполняем поле Going to",
+      "time" : {
+        "start" : 1547724218941,
+        "stop" : 1547724219538,
+        "duration" : 597
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2bd7aefa3ca8d7d3",
+      "name" : "Captured log call",
+      "source" : "2bd7aefa3ca8d7d3.txt",
+      "type" : "text/plain",
+      "size" : 541
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Dudnikov"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "11168-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Test_Travelocity"
+  }, {
+    "name" : "testClass",
+    "value" : "Test_Travelocity"
+  }, {
+    "name" : "testMethod",
+    "value" : "Travelocity.test_step_2"
+  }, {
+    "name" : "package",
+    "value" : "Test_Travelocity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79b59908e89407dd.json",
+  "parameterValues" : [ ]
+}
