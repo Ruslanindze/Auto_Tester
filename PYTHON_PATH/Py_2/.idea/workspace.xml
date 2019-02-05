@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfb70569-d8e0-4e5d-ba1f-93e371c1eca3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Py_1/Lev_0_DriverMan/DriverManager.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Py_1/Lev_0_DriverMan/LocatorsC.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Py_1/Lev_0_DriverMan/PageObjC.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Py_1/Lev_0_DriverMan/Str_Const.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Py_1/Lev_3_home_work_set/T006_Allure/allure_commons_ex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Py_1/Lev_3_home_work_set/T006_Allure/allure_ex_0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../~$Д.3.docx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Py_1/Lev_1_Inh_and_Pattern/BasicTest.py" afterPath="$PROJECT_DIR$/../Py_1/Lev_1_Inh_and_Pattern/BasicTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Py_1/Lev_2_BDD_and_Gherkin/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Py_1/Lev_2_BDD_and_Gherkin/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Py_1/Lev_3_home_work_set/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Py_1/Lev_3_home_work_set/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Py_1/Lev_4_Features/.idea/Lev_4_Features.iml" afterPath="$PROJECT_DIR$/../Py_1/Lev_4_Features/.idea/Lev_4_Features.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Py_1/Lev_4_Features/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Py_1/Lev_4_Features/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Py_1/Lev_4_Features/T001_WinFrame/Test_TransP.py" afterPath="$PROJECT_DIR$/../Py_1/Lev_4_Features/T001_WinFrame/Test_TransP.py" />
+    <list default="true" id="bfb70569-d8e0-4e5d-ba1f-93e371c1eca3" name="Default" comment="Прикрутил Allure (падает из-за драйвер-логера)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YaTranslate_API/BasicTest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YaTranslate_API/Str_Const.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YaTranslate_API/Test_API_YaTr.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/travelocity/res_allure/19918582-1f5b-4544-a605-ed043dcc8e3c-attachment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/travelocity/res_allure/35de8ad7-6630-4b79-be29-8348d1425a5f-attachment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/travelocity/res_allure/74efdc7a-28e3-4d9b-b181-277d3739fc67-attachment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/travelocity/res_allure/af86315f-e9fc-482a-8108-eca79e1e7876-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/travelocity/res_allure/e447d817-5fad-444e-aa5b-002a7fc1860a-attachment.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/travelocity/BasicTest.py" afterPath="$PROJECT_DIR$/travelocity/BasicTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/travelocity/InputData.json" afterPath="$PROJECT_DIR$/travelocity/InputData.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,39 +21,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Py_2" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.57572186">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="DriverManager.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/travelocity/DriverManager.py">
+          <file leaf-file-name="Test_API_YaTr.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/YaTranslate_API/Test_API_YaTr.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#169#199#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Test_Func.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/travelocity/Test_Func.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="626">
-                  <caret line="42" column="53" lean-forward="true" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
-                  <folding>
-                    <element signature="e#250#284#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="207">
+                  <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="BasicTest.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/travelocity/BasicTest.py">
+            <entry file="file://$PROJECT_DIR$/YaTranslate_API/BasicTest.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="469">
-                  <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+                <state relative-caret-position="483">
+                  <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -64,35 +51,13 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="LocatorsC.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/travelocity/LocatorsC.py">
+        <leaf>
+          <file leaf-file-name="Str_Const.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/YaTranslate_API/Str_Const.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+                <state relative-caret-position="168">
+                  <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Test_Travelocity.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/travelocity/Test_Travelocity.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
-                  <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LoggerC.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/travelocity/LoggerC.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="139" selection-end-column="55" />
-                  <folding>
-                    <element signature="e#427#480#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -111,23 +76,43 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>send</find>
+      <find>//*[@id=&quot;mock-book-button&quot;]</find>
+      <find>print</find>
+      <find>pri</find>
+      <find>https://www.travelocity.com/San-Francisco-Hotels-Queen-Anne-Hotel.h9382.Hotel-Information?chkin=1%2F17%2F2019&amp;chkout=2%2F2%2F2019&amp;rm1=a2&amp;hwrqCacheKey=fd37066b-971c-43a7-8561-efa164c118beHWRQ1547713267490&amp;cancellable=false&amp;regionId=6151730&amp;vip=false&amp;c=e4abcc36-6927-43a1-8c14-3fcf617a150a&amp;&amp;exp_dp=208.38&amp;exp_ts=1547713267538&amp;exp_curr=USD&amp;swpToggleOn=false&amp;exp_pg=HSR</find>
+      <find>https://www.travelocity.com/San-Francisco-Hotels-Queen-Anne-Hotel.h9382.Hotel-Information?chkin=1%2F17%2F2019&amp;chkout=2%2F2%2F2019&amp;rm1=a2&amp;hwrqCacheKey=fd37066b-971c-43a7-8561-efa164c118beHWRQ1547713267490&amp;cancellable=false&amp;regionId=6151730&amp;vip=false&amp;c=e4abcc36-6927-43a1-8c14-3fcf617a150a&amp;&amp;exp_dp=208.38&amp;exp_ts=1547713267538&amp;exp_curr=USD&amp;swpToggleOn=false&amp;exp_pg=HSR`</find>
+      <find>prin</find>
+      <find>LIST_LANG</find>
+      <find>DICT_REQ</find>
     </findStrings>
+    <replaceStrings>
+      <replace>DICT_LANG</replace>
+      <replace>DICT_A</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/0_travelocity/DriverManager.py" />
-        <option value="$PROJECT_DIR$/travelocity/DriverManager.py" />
         <option value="$PROJECT_DIR$/travelocity/PageObjC.py" />
         <option value="$PROJECT_DIR$/travelocity/Str_Const.py" />
+        <option value="$PROJECT_DIR$/travelocity/check.txt" />
         <option value="$PROJECT_DIR$/travelocity/LoggerC.py" />
         <option value="$PROJECT_DIR$/travelocity/LocatorsC.py" />
-        <option value="$PROJECT_DIR$/travelocity/BasicTest.py" />
-        <option value="$PROJECT_DIR$/travelocity/Test_Travelocity.py" />
+        <option value="$PROJECT_DIR$/travelocity/DriverManager.py" />
         <option value="$PROJECT_DIR$/travelocity/Test_Func.py" />
+        <option value="$PROJECT_DIR$/travelocity/Test_Travelocity.py" />
+        <option value="$PROJECT_DIR$/travelocity/InputData.json" />
+        <option value="$PROJECT_DIR$/travelocity/BasicTest.py" />
+        <option value="$PROJECT_DIR$/YaTranslate_API/Str_Const.py" />
+        <option value="$PROJECT_DIR$/YaTranslate_API/BasicTest.py" />
+        <option value="$PROJECT_DIR$/YaTranslate_API/Test_API_YaTr.py" />
       </list>
     </option>
   </component>
@@ -135,7 +120,7 @@
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -153,8 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,24 +148,28 @@
             <path>
               <item name="Py_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Py_2" type="462c0819:PsiDirectoryNode" />
-              <item name="travelocity" type="462c0819:PsiDirectoryNode" />
+              <item name="YaTranslate_API" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORK_MC_21\Tester\Auto_Tester\PYTHON_PATH\Py_2\YaTranslate_API" />
+      <recent name="D:\WORK_MC_21\Tester\Auto_Tester\PYTHON_PATH\Py_2\travelocity" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WORK_MC_21\Tester\Auto_Tester\PYTHON_PATH\Py_2\travelocity" />
       <recent name="D:\WORK_MC_21\Tester\Auto_Tester\PYTHON_PATH\Py_2\0_travelocity" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WORK_MC_21\Tester\Auto_Tester\PYTHON_PATH\Py_2\travelocity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,7 +184,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in Test_Travelocity.py">
+  <component name="RunManager" selected="Python.Test_API_YaTr">
+    <configuration name="Nosetests in Test_API_YaTr.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/YaTranslate_API" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Py_2" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/YaTranslate_API/Test_API_YaTr.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="Nosetests in Test_Travelocity.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,6 +214,23 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/travelocity/Test_Travelocity.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Test_API_YaTr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/YaTranslate_API" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Py_2" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/YaTranslate_API/Test_API_YaTr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <configuration name="Test_Func" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,14 +249,18 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in Test_Travelocity.py" />
       <item index="1" class="java.lang.String" itemvalue="Python.Test_Func" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in Test_API_YaTr.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Test_API_YaTr" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in Test_Travelocity.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Test_Func" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.Test_API_YaTr" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in Test_API_YaTr.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in Test_Travelocity.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Test_Func" />
       </list>
     </recent_temporary>
   </component>
@@ -252,20 +275,35 @@
       <option name="presentableId" value="Default" />
       <updated>1547025855574</updated>
     </task>
+    <task id="LOCAL-00001" summary="Прикрутил Allure (падает из-за драйвер-логера)">
+      <created>1547647255558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547647255558</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Прикрутил Allure (падает из-за драйвер-логера)">
+      <created>1547724617091</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547724617091</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_Test_Travelocity_py - 2019.01.15 at 10h 52m 40s.xml">
-      <configuration name="Nosetests in Test_Travelocity.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_Test_API_YaTr_py - 2019.02.05 at 16h 10m 22s.xml">
+      <configuration name="Nosetests in Test_API_YaTr.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_Test_Travelocity_py - 2019.01.15 at 10h 53m 06s.xml">
-      <configuration name="Nosetests in Test_Travelocity.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_Test_API_YaTr_py - 2019.02.05 at 16h 10m 44s.xml">
+      <configuration name="Nosetests in Test_API_YaTr.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_Test_Travelocity_py - 2019.01.15 at 10h 53m 21s.xml">
-      <configuration name="Nosetests in Test_Travelocity.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_Test_API_YaTr_py - 2019.02.05 at 17h 23m 26s.xml">
+      <configuration name="Nosetests in Test_API_YaTr.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_Test_Travelocity_py - 2019.01.15 at 10h 53m 31s.xml">
-      <configuration name="Nosetests in Test_Travelocity.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_Test_API_YaTr_py - 2019.02.05 at 17h 54m 30s.xml">
+      <configuration name="Nosetests in Test_API_YaTr.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_Test_Travelocity_py - 2019.01.15 at 10h 53m 50s.xml">
       <configuration name="Nosetests in Test_Travelocity.py" configurationId="tests" />
@@ -286,7 +324,7 @@
       <configuration name="Nosetests in Test_Travelocity.py" configurationId="tests" />
     </history-entry>
   </component>
-  <component name="TodoView" selected-index="2">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -298,287 +336,189 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09968017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09541578" sideWeight="0.49384615" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49380806" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32572615" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09434968" sideWeight="0.5061538" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Прикрутил Allure (падает из-за драйвер-логера)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Прикрутил Allure (падает из-за драйвер-логера)" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/travelocity/DriverManager.py">
+    <entry file="file://$PROJECT_DIR$/YaTranslate_API/Test_API_YaTr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding>
-            <element signature="e#169#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/Test_Func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="e#250#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/BasicTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/Str_Const.py">
+    <entry file="file://$PROJECT_DIR$/YaTranslate_API/Str_Const.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="21">
+          <caret line="1" column="69" lean-forward="false" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/LocatorsC.py">
+    <entry file="file://$PROJECT_DIR$/YaTranslate_API/BasicTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="357">
+          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/LoggerC.py">
+    <entry file="file://$PROJECT_DIR$/YaTranslate_API/Test_API_YaTr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YaTranslate_API/BasicTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelocity/Test_Travelocity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelocity/InputData.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="139" selection-end-column="55" />
-          <folding>
-            <element signature="e#427#480#0" expanded="true" />
-          </folding>
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelocity/BasicTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="59" column="33" lean-forward="false" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/travelocity/Test_Travelocity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="1323">
+          <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/DriverManager.py">
+    <entry file="file://$PROJECT_DIR$/travelocity/InputData.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding>
-            <element signature="e#169#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/Test_Func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#250#284#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/travelocity/BasicTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="30" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/LocatorsC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/Str_Const.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/DriverManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding>
-            <element signature="e#169#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/Test_Func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#250#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/BasicTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="30" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/LocatorsC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/Str_Const.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/DriverManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding>
-            <element signature="e#169#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/Test_Func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#250#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/BasicTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="35" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="30" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/LocatorsC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/Str_Const.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/DriverManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding>
-            <element signature="e#169#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/LoggerC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="139" selection-end-column="55" />
-          <folding>
-            <element signature="e#427#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/BasicTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/Str_Const.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/LocatorsC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="1239">
+          <caret line="59" column="33" lean-forward="false" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/travelocity/Test_Travelocity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="1323">
+          <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelocity/InputData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelocity/BasicTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelocity/InputData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelocity/BasicTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="59" column="33" lean-forward="false" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YaTranslate_API/DriverManager.py" />
+    <entry file="file://$PROJECT_DIR$/YaTranslate_API/LoggerC.log" />
+    <entry file="file://$PROJECT_DIR$/YaTranslate_API/LoggerC.py" />
+    <entry file="file://$PROJECT_DIR$/travelocity/Test_Travelocity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travelocity/Test_Func.py">
+    <entry file="file://$PROJECT_DIR$/YaTranslate_API/Str_Const.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="42" column="53" lean-forward="true" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
-          <folding>
-            <element signature="e#250#284#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YaTranslate_API/BasicTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YaTranslate_API/Test_API_YaTr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

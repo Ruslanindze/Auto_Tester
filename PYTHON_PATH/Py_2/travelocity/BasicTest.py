@@ -39,7 +39,7 @@ class Basic_UniT(unittest.TestCase):
     # ---------------------------
     def tearDown(self):
         # -------------- зона ловли ошибок
-        time.sleep(2)
+        time.sleep(1)
         self.find_err = False
         for method, error in self._outcome.errors:
             if error:
