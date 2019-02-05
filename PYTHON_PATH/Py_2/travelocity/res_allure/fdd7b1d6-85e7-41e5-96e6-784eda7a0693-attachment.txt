@@ -1,0 +1,3 @@
+LoggerC.py                  52 INFO     Test_Travelocity.Travelocity.test_step_3: xpath //*[@id="hotel-checkin-hp-hotel"]
+LoggerC.py                  58 INFO     Test_Travelocity.Travelocity.test_step_3: <selenium.webdriver.remote.webelement.WebElement (session="bbf35fee738ea50245a20dcb79eaf80f", element="0.6614832328629938-2")>
+LoggerC.py                  58 INFO     Test_Travelocity.Travelocity.test_step_3: <selenium.webdriver.remote.webelement.WebElement (session="bbf35fee738ea50245a20dcb79eaf80f", element="0.6614832328629938-2")>
