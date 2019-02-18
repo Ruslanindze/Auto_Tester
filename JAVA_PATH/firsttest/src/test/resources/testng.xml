@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite66" verbose="10" >
+    <test name="ThirdTests" >
+        <!--<packages>-->
+            <!--<package name="test.*"/>-->
+        <!--</packages>-->
+
+        <!--<groups>-->
+            <!--<run>-->
+                <!--&lt;!&ndash;<exclude name="brokenTests"  />&ndash;&gt;-->
+                <!--<include name="regression"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+
+        <classes>
+            <class name="tests.ThirdTests">
+                <methods>
+                    <!--<include name="test1"/>-->
+                    <include name="test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Regression1">
+        <classes>
+        </classes>
+    </test>
+</suite>

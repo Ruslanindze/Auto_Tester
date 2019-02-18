@@ -1,51 +1,50 @@
 package tests;
 
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 public class FirstTest {
 
     @Test
     public void test(){
-        System.setProperty("webdriver.chrome.driver", "lib\\chrome\\chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
+        driver.get("https://yandex.ru");
 
-        driver.get("http://blazedemo.com/index.php");
+        WebElement enterToEmail = driver.findElement(By.cssSelector("div[role='form'] > a.button"));
+        enterToEmail.click();
 
-        WebElement depCity = driver.findElement(By.xpath("/html/body/div[3]/form/select[1]/option[3]"));
-        WebElement desCity = driver.findElement(By.xpath("/html/body/div[3]/form/select[2]/option[4]"));
-        WebElement findFlightsButton = driver.findElement(By.xpath("/html/body/div[3]/form/div/input"));
+        WebElement inputLogin = driver.findElement(By.id("passp-field-login"));
+        inputLogin.sendKeys("route666.com");
 
-        depCity.click();
-        desCity.click();
+        WebElement buttonSubmit = driver.findElement(By.
+                cssSelector("button[type='submit']"));
+        assertTrue(buttonSubmit.isDisplayed());
+        buttonSubmit.click();
 
-         // или
+        WebElement errorMessage = driver.findElement(By.
+                xpath("//*[@id=\"root\"]/div/div[2]/div/div[3]/div[2]/div/div[1]/form/div[1]/div[2]"));
+        assertTrue(errorMessage.isDisplayed());
 
-       /*  WebElement selectDepCity = driver.findElement(By.xpath("/html/body/div[3]/form/select[1] "));
-           WebElement selectDesCity = driver.findElement(By.xpath("/html/body/div[3]/form/select[2]"));
 
-         Select DepCity = new Select(selectDepCity);
-         Select DesCity = new Select(selectDesCity);
-         DepCity.selectByVisibleText("Boston");
-         DesCity.selectByVisibleText("Berlin");
-         */
+//        driver.close(); // закрывает одно окно
+        driver.quit(); // закрывает все окна и браузер, завершает работу драйвера
 
-          findFlightsButton.click();
+        /*
+           classExpectedConditions - utility class
 
-          WebElement departsTable = driver.findElement(By.cssSelector("body > div.container > table > thead > tr > th:nth-child(4)"));
-          WebElement arrivesTable = driver.findElement(By.cssSelector("body > div.container > table > thead > tr > th:nth-child(5)"));
-
-          assertEquals(departsTable.getAttribute("textContent"),"Departs: Boston" );
-          assertEquals(arrivesTable.getAttribute("textContent"),"Arrives: Berlin" );
-
-          driver.quit();
-
+           ExpectedConditions.titles(String title)
+           ExpectedConditions.presenceOfElementLocated(By locator) - есть ли такой элемент
+           ExpectedConditions.elementToBeClickable(WebElement element) - кликабельный элемент
+           ExpectedConditions.stalenessOf(WebElement element) - пропадающий элемент
+        */
     }
+
 }

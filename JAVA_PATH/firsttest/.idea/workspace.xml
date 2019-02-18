@@ -1,29 +1,327 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c0a1a71-9c75-41ef-b392-fac826114362" name="Default" comment="" />
+    <list default="true" id="90b2e6cd-ffb4-43df-bbb7-74c9a1ed854e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/firsttest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FirstHomeWTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SecondTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ThirdTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/Level_0.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/src/main/java/TEST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TShirtsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDriverManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_guava_guava_22_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_server_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firsttest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/firsttest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/animal-sniffer-annotations-1.14-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/animal-sniffer-annotations-1.14-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/animal-sniffer-annotations-1.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/byte-buddy-1.7.9-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/byte-buddy-1.7.9-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/byte-buddy-1.7.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/checker-compat-qual-2.0.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/checker-compat-qual-2.0.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/checker-compat-qual-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chrome/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-codec-1.10-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-codec-1.10-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-exec-1.3-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-exec-1.3-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-exec-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-io-2.6-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-io-2.6-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-io-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-lang3-3.7-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-lang3-3.7-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-lang3-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-logging-1.2-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-logging-1.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-net-3.6-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-net-3.6-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-net-3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-text-1.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-text-1.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-text-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cssparser-0.9.24-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cssparser-0.9.24-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cssparser-0.9.24.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/error_prone_annotations-2.1.3-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/error_prone_annotations-2.1.3-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/error_prone_annotations-2.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gson-2.8.2-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gson-2.8.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gson-2.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/guava-23.6-jre-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/guava-23.6-jre-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/guava-23.6-jre.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/htmlunit-2.29-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/htmlunit-2.29-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/htmlunit-2.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/htmlunit-core-js-2.28-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/htmlunit-core-js-2.28-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/htmlunit-core-js-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/htmlunit-driver-2.29.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/htmlunit-driver-2.29.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/htmlunit-driver-2.29.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/httpclient-4.5.3-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/httpclient-4.5.3-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/httpclient-4.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/httpcore-4.4.6-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/httpcore-4.4.6-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/httpcore-4.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/httpmime-4.5.3-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/httpmime-4.5.3-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/httpmime-4.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/j2objc-annotations-1.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/j2objc-annotations-1.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/j2objc-annotations-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet-api-3.1.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet-api-3.1.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jcip-annotations-1.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jcip-annotations-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jcommander-1.72-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jcommander-1.72-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jcommander-1.72.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-client-9.4.7.v20170914-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-client-9.4.7.v20170914-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-client-9.4.7.v20170914.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-http-9.4.8.v20171121-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-http-9.4.8.v20171121-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-http-9.4.8.v20171121.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-io-9.4.8.v20171121-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-io-9.4.8.v20171121-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-io-9.4.8.v20171121.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-repacked-9.4.7.v20171121-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-repacked-9.4.7.v20171121-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-repacked-9.4.7.v20171121.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-util-9.4.8.v20171121-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-util-9.4.8.v20171121-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-util-9.4.8.v20171121.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-xml-9.4.7.v20170914-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-xml-9.4.7.v20170914-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jetty-xml-9.4.7.v20170914.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsr305-1.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/neko-htmlunit-2.28-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/neko-htmlunit-2.28-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/neko-htmlunit-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/okhttp-3.9.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/okhttp-3.9.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/okhttp-3.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/okio-1.13.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/okio-1.13.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/okio-1.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sac-1.3-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sac-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-api-3.11.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-api-3.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-api-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-chrome-driver-3.11.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-chrome-driver-3.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-chrome-driver-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-edge-driver-3.11.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-edge-driver-3.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-edge-driver-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-firefox-driver-3.11.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-firefox-driver-3.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-firefox-driver-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-ie-driver-3.11.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-ie-driver-3.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-ie-driver-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.11.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-opera-driver-3.11.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-opera-driver-3.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-opera-driver-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-remote-driver-3.11.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-remote-driver-3.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-remote-driver-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-safari-driver-3.11.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-safari-driver-3.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-safari-driver-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-server-3.11.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-server-3.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-server-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-support-3.11.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-support-3.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-support-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/serializer-2.7.2-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/serializer-2.7.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/serializer-2.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/snakeyaml-1.19-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/snakeyaml-1.19-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/snakeyaml-1.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/websocket-api-9.4.7.v20170914-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/websocket-api-9.4.7.v20170914-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/websocket-api-9.4.7.v20170914.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/websocket-client-9.4.7.v20170914-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/websocket-client-9.4.7.v20170914-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/websocket-client-9.4.7.v20170914.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/websocket-common-9.4.7.v20170914-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/websocket-common-9.4.7.v20170914-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/websocket-common-9.4.7.v20170914.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xalan-2.7.2-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xalan-2.7.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xalan-2.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xercesImpl-2.11.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xercesImpl-2.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xercesImpl-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml-apis-1.4.01-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml-apis-1.4.01-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml-apis-1.4.01.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testng" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PYTHON_PATH/Py_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PYTHON_PATH/Py_2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1328309085">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="302" />
+          <entry key="xml" value="65" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="302" />
+          <entry key="XML" value="65" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1022138513">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="6" />
+          <entry key="java" value="3271" />
+          <entry key="xml" value="168" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3271" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="XML" value="168" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="12" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="12" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="792">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firsttest.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/ThirdTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1600#1601#0" expanded="true" />
+                <element signature="e#1639#1640#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -37,25 +335,43 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>junit</find>
+      <find>regression</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../Development/Language_JAVA/teaching/begnner/src/TestZero.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/FirstHomework.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/FirstHomeWTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/SecondTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/ThirdTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/TestListener.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="288" />
-    <option name="y" value="239" />
-    <option name="width" value="1494" />
-    <option name="height" value="834" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-526" />
+    <option name="width" value="1916" />
+    <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -66,18 +382,13 @@
             <path>
               <item name="firsttest" type="b2602c69:ProjectViewProjectNode" />
               <item name="firsttest" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firsttest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firsttest" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="chrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="firsttest" type="b2602c69:ProjectViewProjectNode" />
               <item name="firsttest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="firsttest" type="b2602c69:ProjectViewProjectNode" />
@@ -102,31 +413,25 @@
             </path>
             <path>
               <item name="firsttest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="firsttest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/maven-surefire-plugin-2.21.0 (1).jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.21388888" />
-    <property name="project.structure.side.proportion" value="0.47414634" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550494788356" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\bondarenko\IdeaProjects\firsttest\lib\chrome" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,115 +445,124 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest.test">
-    <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.FirstTest" />
+  <component name="RunManager" selected="TestNG.regression">
+    <configuration name="G:/WORK_MC_21/Tester/Auto_Tester/JAVA_PATH/firsttest/src/test/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="firsttest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="firsttest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.FirstTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FirstTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="firsttest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.FirstTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdTests (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firsttest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ThirdTests" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firsttest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ThirdTests" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdTests.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firsttest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ThirdTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdTests.test2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firsttest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ThirdTests" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="regression" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <module name="firsttest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="regression" />
+      <option name="TEST_OBJECT" value="GROUP" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FirstTest.test" />
-      <item itemvalue="JUnit.FirstTest" />
-      <item itemvalue="Application.FirstTest" />
+      <item itemvalue="TestNG.ThirdTests.test1" />
+      <item itemvalue="TestNG.G:/WORK_MC_21/Tester/Auto_Tester/JAVA_PATH/firsttest/src/test/resources/testng.xml" />
+      <item itemvalue="TestNG.ThirdTests.test2" />
+      <item itemvalue="TestNG.regression" />
+      <item itemvalue="TestNG.ThirdTests" />
+      <item itemvalue="TestNG.ThirdTests (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstTest.test" />
-        <item itemvalue="Application.FirstTest" />
-        <item itemvalue="JUnit.FirstTest" />
+        <item itemvalue="TestNG.ThirdTests.test1" />
+        <item itemvalue="TestNG.ThirdTests.test2" />
+        <item itemvalue="TestNG.ThirdTests" />
+        <item itemvalue="TestNG.G:/WORK_MC_21/Tester/Auto_Tester/JAVA_PATH/firsttest/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.ThirdTests (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -257,288 +571,194 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7c0a1a71-9c75-41ef-b392-fac826114362" name="Default" comment="" />
-      <created>1522233169318</created>
+      <changelist id="90b2e6cd-ffb4-43df-bbb7-74c9a1ed854e" name="Default Changelist" comment="" />
+      <created>1549977049689</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1522233169318</updated>
+      <updated>1549977049689</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_test - 2018.04.02 at 12h 35m 23s.xml">
-      <configuration name="FirstTest.test" configurationId="JUnit" />
+    <history-entry file="ThirdTests_test1 - 2019.02.18 at 15h 42m 32s.xml">
+      <configuration name="ThirdTests.test1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_test - 2018.04.02 at 12h 42m 17s.xml">
-      <configuration name="FirstTest.test" configurationId="JUnit" />
+    <history-entry file="G__WORK_MC_21_Tester_Auto_Tester_JAVA_PATH_firsttest_src_test_resources_testng_xml - 2019.02.18 at 15h 45m 25s.xml">
+      <configuration name="G:/WORK_MC_21/Tester/Auto_Tester/JAVA_PATH/firsttest/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_test - 2018.04.02 at 12h 44m 48s.xml">
-      <configuration name="FirstTest.test" configurationId="JUnit" />
+    <history-entry file="G__WORK_MC_21_Tester_Auto_Tester_JAVA_PATH_firsttest_src_test_resources_testng_xml - 2019.02.18 at 15h 45m 40s.xml">
+      <configuration name="G:/WORK_MC_21/Tester/Auto_Tester/JAVA_PATH/firsttest/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_test - 2018.04.02 at 12h 47m 58s.xml">
-      <configuration name="FirstTest.test" configurationId="JUnit" />
+    <history-entry file="G__WORK_MC_21_Tester_Auto_Tester_JAVA_PATH_firsttest_src_test_resources_testng_xml - 2019.02.18 at 15h 49m 48s.xml">
+      <configuration name="G:/WORK_MC_21/Tester/Auto_Tester/JAVA_PATH/firsttest/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_test - 2018.04.02 at 12h 48m 13s.xml">
-      <configuration name="FirstTest.test" configurationId="JUnit" />
+    <history-entry file="ThirdTests - 2019.02.18 at 15h 50m 34s.xml">
+      <configuration name="ThirdTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_test - 2018.04.02 at 12h 52m 18s.xml">
-      <configuration name="FirstTest.test" configurationId="JUnit" />
+    <history-entry file="ThirdTests - 2019.02.18 at 15h 51m 03s.xml">
+      <configuration name="ThirdTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_test - 2018.04.02 at 12h 55m 34s.xml">
-      <configuration name="FirstTest.test" configurationId="JUnit" />
+    <history-entry file="ThirdTests - 2019.02.18 at 15h 51m 20s.xml">
+      <configuration name="ThirdTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_test - 2018.04.02 at 12h 59m 15s.xml">
-      <configuration name="FirstTest.test" configurationId="JUnit" />
+    <history-entry file="ThirdTests_test2 - 2019.02.18 at 15h 52m 31s.xml">
+      <configuration name="ThirdTests.test2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_test - 2018.04.02 at 13h 05m 52s.xml">
-      <configuration name="FirstTest.test" configurationId="JUnit" />
+    <history-entry file="ThirdTests_test1 - 2019.02.18 at 15h 52m 59s.xml">
+      <configuration name="ThirdTests.test1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_test - 2018.04.02 at 13h 06m 31s.xml">
-      <configuration name="FirstTest.test" configurationId="JUnit" />
+    <history-entry file="ThirdTests_test1 - 2019.02.18 at 15h 54m 06s.xml">
+      <configuration name="ThirdTests.test1" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="288" y="239" width="1494" height="834" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32850942" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32416788" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299566" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31504065" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16058002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39942113" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3091518" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32924107" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32924107" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="8" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar!/org/junit/jupiter/api/Assertions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="262">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Development/Language_JAVA/teaching/begnner/src/TestZero.java" />
+    <entry file="file://$PROJECT_DIR$/../../../../Development/Language_JAVA/teaching/begnner/src/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firsttest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="270">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../../../../Development/Language_JAVA/teaching/begnner/src/BeerSong.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="504">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstHomeWTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="98" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="98" />
+        <state relative-caret-position="768">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.11.0/client-combined-3.11.0-sources.jar!/org/openqa/selenium/By.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="429" selection-start-line="429" selection-end-line="429" />
-          <folding>
-            <element signature="e#12904#12905#0" expanded="true" />
-            <element signature="e#12942#12943#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="206">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="792">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/22.0/guava-22.0-sources.jar!/com/google/common/base/Preconditions.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestNG.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="1215" selection-start-line="1215" selection-end-line="1215" />
+        <state relative-caret-position="340">
+          <caret line="318" column="39" lean-forward="true" selection-start-line="318" selection-start-column="39" selection-end-line="318" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SecondTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
-            <element signature="e#44262#44263#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/22.0/guava-22.0-sources.jar!/com/google/common/collect/Hashing.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1685#1686#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/22.0/guava-22.0-sources.jar!/com/google/common/collect/AbstractMapEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/22.0/guava-22.0-sources.jar!/com/google/common/collect/CollectPreconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="408">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/22.0/guava-22.0-sources.jar!/com/google/common/collect/ImmutableEntry.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#1159#1160#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.11.0/client-combined-3.11.0-sources.jar!/org/openqa/selenium/remote/Command.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ThirdTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.11.0/client-combined-3.11.0-sources.jar!/org/openqa/selenium/remote/http/AbstractHttpCommandCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.11.0/client-combined-3.11.0-sources.jar!/org/openqa/selenium/remote/HttpCommandExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.11.0/client-combined-3.11.0-sources.jar!/org/openqa/selenium/remote/service/DriverCommandExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.11.0/client-combined-3.11.0-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="544" selection-start-line="544" selection-end-line="544" />
-          <folding>
-            <element signature="e#11385#11386#0" expanded="true" />
-            <element signature="e#11422#11423#0" expanded="true" />
-            <element signature="e#14634#14635#0" expanded="true" />
-            <element signature="e#14685#14686#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.11.0/client-combined-3.11.0-sources.jar!/org/openqa/selenium/remote/RemoteWebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="278" selection-start-line="278" selection-end-line="278" />
-          <folding>
-            <element signature="e#9257#9258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.11.0/client-combined-3.11.0-sources.jar!/org/openqa/selenium/remote/SessionId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#1043#1044#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/22.0/guava-22.0-sources.jar!/com/google/common/collect/ImmutableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/22.0/guava-22.0-sources.jar!/com/google/common/collect/RegularImmutableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/22.0/guava-22.0-sources.jar!/com/google/common/collect/ImmutableMapEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="e#1852#1853#0" expanded="true" />
-            <element signature="e#2185#2186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2417">
-          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="240">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -564,7 +784,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.47414634" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -599,18 +819,8 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.47414634" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -618,11 +828,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.seleniumhq.selenium:selenium-server:3.11.0</last-edited>
+          <last-edited>Maven: com.google.code.findbugs:jsr305:1.3.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.47414634" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
