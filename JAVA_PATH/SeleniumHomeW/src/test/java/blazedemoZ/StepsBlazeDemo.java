@@ -181,8 +181,9 @@ public class StepsBlazeDemo extends Assert {
         assertTrue(driver.findElement(LocPurchCardNumb).
                 getText().contains(CardNumb.substring(CardNumb.length()-4)));
         //---------------------------------------------------
-        String ExpirationText = driver.
-                findElement(LocPurchExpiration).getText();
+        String ExpirationText = driverWait.until(
+                ExpectedConditions.
+                        presenceOfElementLocated(LocPurchExpiration)).getText();
         assertTrue(ExpirationText.contains(Month));
         assertTrue(ExpirationText.contains(Year));
         //---------------------------------------------------
