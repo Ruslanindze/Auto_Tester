@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="881f84e6-fc17-46ba-8b7d-0be5b329ed74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/Level_0.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_0/src/main/java/TEST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TShirtsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDriverManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firsttest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../firsttest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testng" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PYTHON_PATH/Py_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PYTHON_PATH/Py_2/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-440220601">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="965" />
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="965" />
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.49906892">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest/BasicTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="384">
+                  <caret line="16" column="25" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="25" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#187#188#0" expanded="true" />
+                    <element signature="e#228#229#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest/GoogleFunc.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="257">
+                  <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#378#379#0" expanded="true" />
+                    <element signature="e#419#420#0" expanded="true" />
+                    <element signature="e#468#469#0" expanded="true" />
+                    <element signature="e#520#521#0" expanded="true" />
+                    <element signature="e#573#574#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest/GoogleTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="630">
+                  <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/simpleExamples/GoogleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoogleTest/BasicTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoogleTest/GoogleFunc.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoogleTest/GoogleTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-526" />
+    <option name="width" value="1916" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SelenideBegin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenideBegin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelenideBegin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenideBegin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelenideBegin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenideBegin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelenideBegin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenideBegin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelenideBegin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenideBegin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550572390192" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Development/Language_JAVA/teaching/begnner" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.GoogleTest">
+    <configuration name="GoogleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SelenideBegin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GoogleTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GoogleTest" />
+      <option name="MAIN_CLASS_NAME" value="GoogleTest.GoogleTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTest.userCanSearchKeyword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SelenideBegin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GoogleTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GoogleTest" />
+      <option name="MAIN_CLASS_NAME" value="GoogleTest.GoogleTest" />
+      <option name="METHOD_NAME" value="userCanSearchKeyword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTest.userCanSearchWeather" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SelenideBegin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GoogleTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GoogleTest" />
+      <option name="MAIN_CLASS_NAME" value="GoogleTest.GoogleTest" />
+      <option name="METHOD_NAME" value="userCanSearchWeather" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.GoogleTest.userCanSearchKeyword" />
+      <item itemvalue="JUnit.GoogleTest" />
+      <item itemvalue="JUnit.GoogleTest.userCanSearchWeather" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GoogleTest" />
+        <item itemvalue="JUnit.GoogleTest.userCanSearchWeather" />
+        <item itemvalue="JUnit.GoogleTest.userCanSearchKeyword" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="881f84e6-fc17-46ba-8b7d-0be5b329ed74" name="Default Changelist" comment="" />
+      <created>1550557989862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550557989862</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GoogleTest - 2019.02.19 at 10h 24m 47s.xml">
+      <configuration name="GoogleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleTest - 2019.02.19 at 10h 25m 09s.xml">
+      <configuration name="GoogleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleTest - 2019.02.19 at 11h 25m 49s.xml">
+      <configuration name="GoogleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleTest_userCanSearchKeyword - 2019.02.19 at 12h 01m 18s.xml">
+      <configuration name="GoogleTest.userCanSearchKeyword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleTest_userCanSearchKeyword - 2019.02.19 at 12h 06m 49s.xml">
+      <configuration name="GoogleTest.userCanSearchKeyword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleTest_userCanSearchKeyword - 2019.02.19 at 12h 07m 19s.xml">
+      <configuration name="GoogleTest.userCanSearchKeyword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleTest - 2019.02.19 at 12h 11m 34s.xml">
+      <configuration name="GoogleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleTest_userCanSearchWeather - 2019.02.19 at 12h 13m 17s.xml">
+      <configuration name="GoogleTest.userCanSearchWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleTest - 2019.02.19 at 12h 14m 00s.xml">
+      <configuration name="GoogleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleTest - 2019.02.19 at 12h 36m 46s.xml">
+      <configuration name="GoogleTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13480128" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32924107" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32924107" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.1.0/selenide-5.1.0.jar!/com/codeborne/selenide/ElementsCollection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="102" column="24" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../firsttest/src/test/java/tests/FirstHomeWTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest/GoogleFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest/GoogleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest/BasicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
